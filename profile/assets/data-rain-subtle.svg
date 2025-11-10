@@ -1,0 +1,136 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Subtle data rain divider</title>
+  <desc id="desc">Animated matrix-style data rain with low opacity binary characters used as a section divider.</desc>
+  <defs>
+    <style>
+      @keyframes rain {
+        0% { transform: translateY(-120px); opacity: 0; }
+        10% { opacity: 0.15; }
+        90% { opacity: 0.15; }
+        100% { transform: translateY(160px); opacity: 0; }
+      }
+
+      .data-char {
+        font-family: 'Fira Code', monospace;
+        font-size: 12px;
+        opacity: 0;
+        fill: #E7AE59;
+      }
+
+      .background {
+        fill: none;
+      }
+
+      @media (prefers-color-scheme: light) {
+        .data-char {
+          fill: #AC2D21;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="120" class="background" />
+
+  <g>
+    <text class="data-char" x="50" y="10" style="animation: rain 6s linear infinite;">1</text>
+    <text class="data-char" x="50" y="30" style="animation: rain 6s linear infinite; animation-delay: 0.2s;">0</text>
+    <text class="data-char" x="50" y="50" style="animation: rain 6s linear infinite; animation-delay: 0.4s;">1</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="120" y="0" style="animation: rain 6s linear infinite; animation-delay: 0.5s;">0</text>
+    <text class="data-char" x="120" y="25" style="animation: rain 6s linear infinite; animation-delay: 0.7s;">1</text>
+    <text class="data-char" x="120" y="50" style="animation: rain 6s linear infinite; animation-delay: 0.9s;">0</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="190" y="-10" style="animation: rain 6s linear infinite; animation-delay: 1s;">1</text>
+    <text class="data-char" x="190" y="15" style="animation: rain 6s linear infinite; animation-delay: 1.2s;">1</text>
+    <text class="data-char" x="190" y="40" style="animation: rain 6s linear infinite; animation-delay: 1.4s;">0</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="260" y="5" style="animation: rain 6s linear infinite; animation-delay: 1.5s;">0</text>
+    <text class="data-char" x="260" y="30" style="animation: rain 6s linear infinite; animation-delay: 1.7s;">1</text>
+    <text class="data-char" x="260" y="55" style="animation: rain 6s linear infinite; animation-delay: 1.9s;">1</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="330" y="-15" style="animation: rain 6s linear infinite; animation-delay: 2s;">0</text>
+    <text class="data-char" x="330" y="10" style="animation: rain 6s linear infinite; animation-delay: 2.2s;">1</text>
+    <text class="data-char" x="330" y="35" style="animation: rain 6s linear infinite; animation-delay: 2.4s;">0</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="400" y="0" style="animation: rain 6s linear infinite; animation-delay: 2.5s;">1</text>
+    <text class="data-char" x="400" y="25" style="animation: rain 6s linear infinite; animation-delay: 2.7s;">0</text>
+    <text class="data-char" x="400" y="50" style="animation: rain 6s linear infinite; animation-delay: 2.9s;">1</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="470" y="-20" style="animation: rain 6s linear infinite; animation-delay: 3s;">0</text>
+    <text class="data-char" x="470" y="5" style="animation: rain 6s linear infinite; animation-delay: 3.2s;">1</text>
+    <text class="data-char" x="470" y="30" style="animation: rain 6s linear infinite; animation-delay: 3.4s;">0</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="540" y="-5" style="animation: rain 6s linear infinite; animation-delay: 3.5s;">1</text>
+    <text class="data-char" x="540" y="20" style="animation: rain 6s linear infinite; animation-delay: 3.7s;">0</text>
+    <text class="data-char" x="540" y="45" style="animation: rain 6s linear infinite; animation-delay: 3.9s;">1</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="610" y="-25" style="animation: rain 6s linear infinite; animation-delay: 4s;">0</text>
+    <text class="data-char" x="610" y="0" style="animation: rain 6s linear infinite; animation-delay: 4.2s;">1</text>
+    <text class="data-char" x="610" y="25" style="animation: rain 6s linear infinite; animation-delay: 4.4s;">0</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="680" y="-15" style="animation: rain 6s linear infinite; animation-delay: 4.5s;">1</text>
+    <text class="data-char" x="680" y="10" style="animation: rain 6s linear infinite; animation-delay: 4.7s;">1</text>
+    <text class="data-char" x="680" y="35" style="animation: rain 6s linear infinite; animation-delay: 4.9s;">0</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="750" y="-5" style="animation: rain 6s linear infinite; animation-delay: 5s;">0</text>
+    <text class="data-char" x="750" y="20" style="animation: rain 6s linear infinite; animation-delay: 5.2s;">1</text>
+    <text class="data-char" x="750" y="45" style="animation: rain 6s linear infinite; animation-delay: 5.4s;">0</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="820" y="-10" style="animation: rain 6s linear infinite; animation-delay: 5.5s;">1</text>
+    <text class="data-char" x="820" y="15" style="animation: rain 6s linear infinite; animation-delay: 5.7s;">0</text>
+    <text class="data-char" x="820" y="40" style="animation: rain 6s linear infinite; animation-delay: 5.9s;">1</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="890" y="0" style="animation: rain 6s linear infinite; animation-delay: 6s;">0</text>
+    <text class="data-char" x="890" y="25" style="animation: rain 6s linear infinite; animation-delay: 6.2s;">1</text>
+    <text class="data-char" x="890" y="50" style="animation: rain 6s linear infinite; animation-delay: 6.4s;">0</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="960" y="-20" style="animation: rain 6s linear infinite; animation-delay: 6.5s;">1</text>
+    <text class="data-char" x="960" y="5" style="animation: rain 6s linear infinite; animation-delay: 6.7s;">1</text>
+    <text class="data-char" x="960" y="30" style="animation: rain 6s linear infinite; animation-delay: 6.9s;">0</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="1030" y="-10" style="animation: rain 6s linear infinite; animation-delay: 7s;">0</text>
+    <text class="data-char" x="1030" y="15" style="animation: rain 6s linear infinite; animation-delay: 7.2s;">1</text>
+    <text class="data-char" x="1030" y="40" style="animation: rain 6s linear infinite; animation-delay: 7.4s;">1</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="1100" y="0" style="animation: rain 6s linear infinite; animation-delay: 7.5s;">0</text>
+    <text class="data-char" x="1100" y="25" style="animation: rain 6s linear infinite; animation-delay: 7.7s;">1</text>
+    <text class="data-char" x="1100" y="50" style="animation: rain 6s linear infinite; animation-delay: 7.9s;">0</text>
+  </g>
+
+  <g>
+    <text class="data-char" x="1170" y="-5" style="animation: rain 6s linear infinite; animation-delay: 8s;">1</text>
+    <text class="data-char" x="1170" y="20" style="animation: rain 6s linear infinite; animation-delay: 8.2s;">0</text>
+    <text class="data-char" x="1170" y="45" style="animation: rain 6s linear infinite; animation-delay: 8.4s;">1</text>
+  </g>
+</svg>
+

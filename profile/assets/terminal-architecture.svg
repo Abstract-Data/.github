@@ -1,0 +1,118 @@
+<svg width="820" height="260" viewBox="0 0 820 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract Data architecture terminal</title>
+  <desc id="desc">Animated terminal display listing architecture layers with typing and scanning effects.</desc>
+  <defs>
+    <style>
+      @keyframes typing {
+        0% { width: 0; }
+        100% { width: 100%; }
+      }
+
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+
+      @keyframes scan {
+        0% { transform: translateY(-100%); opacity: 0; }
+        10% { opacity: 0.15; }
+        90% { opacity: 0.15; }
+        100% { transform: translateY(260px); opacity: 0; }
+      }
+
+      .terminal {
+        stroke-width: 2;
+        rx: 12;
+        fill: none;
+      }
+
+      .header-bar {
+        rx: 12 12 0 0;
+      }
+
+      .header-title {
+        font-family: 'Fira Code', monospace;
+        font-size: 14px;
+        letter-spacing: 0.3px;
+      }
+
+      .text-line {
+        font-family: 'Fira Code', monospace;
+        font-size: 16px;
+        opacity: 0;
+        fill: #E7AE59;
+        dominant-baseline: hanging;
+        text-anchor: start;
+      }
+
+      .cursor {
+        font-family: 'Fira Code', monospace;
+        font-size: 16px;
+        animation: blink 1s step-end infinite;
+        fill: #E7AE59;
+      }
+
+      .scanline {
+        animation: scan 8s linear infinite;
+      }
+
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+      .line-1 { animation: fadeIn 1s ease forwards 0s; }
+      .line-2 { animation: fadeIn 1s ease forwards 1s; }
+      .line-3 { animation: fadeIn 1s ease forwards 2s; }
+      .line-4 { animation: fadeIn 1s ease forwards 3s; }
+      .line-5 { animation: fadeIn 1s ease forwards 4s; }
+      .line-6 { animation: fadeIn 1s ease forwards 5s; }
+
+      @media (prefers-color-scheme: dark) {
+        .terminal { stroke: #E7AE59; }
+        .header-bar { fill: rgba(172, 45, 33, 0.35); }
+        .text-line { fill: #E7AE59; }
+        .cursor { fill: #E7AE59; }
+        .header-title { fill: #FFE6C7; }
+        .scanline { fill: url(#scan-gradient-dark); }
+      }
+
+      @media (prefers-color-scheme: light) {
+        .terminal { stroke: #C44632; }
+        .header-bar { fill: rgba(245, 192, 137, 0.4); }
+        .text-line { fill: #C44632; }
+        .cursor { fill: #C44632; }
+        .header-title { fill: #5C2016; }
+        .scanline { fill: url(#scan-gradient-light); }
+      }
+    </style>
+
+    <linearGradient id="scan-gradient-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E7AE59" stop-opacity="0" />
+      <stop offset="50%" stop-color="#E7AE59" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#E7AE59" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="scan-gradient-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C44632" stop-opacity="0" />
+      <stop offset="50%" stop-color="#C44632" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#C44632" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect class="terminal" x="10" y="10" width="800" height="240" />
+  <rect class="header-bar" x="10" y="10" width="800" height="26" />
+  <text class="header-title" x="30" y="26" dominant-baseline="middle">abstract-data@systems • architecture</text>
+  <g transform="translate(30, 48)">
+    <text class="text-line line-1" y="0">$ abstract-data architecture layers --watch</text>
+    <text class="text-line line-2" y="34">▸ Layer 5 Interfaces      : Swift apps for campaign, advocacy, operator workflows</text>
+    <text class="text-line line-3" y="68">▸ Layer 4 APIs            : FastAPI + SQLModel services exposing realtime civic data</text>
+    <text class="text-line line-4" y="102">▸ Layer 3 AI / ML         : Scoring pipelines, anomaly detection, guidance engines</text>
+    <text class="text-line line-5" y="136">▸ Layer 2 Data            : Neon Postgres, Redis/Upstash, hybrid cloud + edge storage</text>
+    <text class="text-line line-6" y="170">▸ Layer 1 Infrastructure  : Cloudflare, AWS, containerized delivery, observability</text>
+    <text class="cursor" x="0" y="204">▮</text>
+  </g>
+
+  <rect class="scanline" x="10" y="10" width="800" height="4" />
+</svg>
+

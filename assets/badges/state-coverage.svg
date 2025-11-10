@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="48" viewBox="0 0 320 48" role="img" aria-labelledby="coverageTitle coverageDesc">
+  <title id="coverageTitle">State Coverage Badge</title>
+  <desc id="coverageDesc">Badge highlighting multi-state voter intelligence coverage.</desc>
+  <defs>
+    <linearGradient id="coverageGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A0E27" />
+      <stop offset="100%" stop-color="#AC2D21" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="48" rx="12" fill="#0A0E27" stroke="#E7AE59" stroke-width="2" />
+  <text x="70" y="30" font-family="'Fira Code', monospace" font-size="18" fill="#E7AE59">COVERAGE:</text>
+  <text x="300" y="30" text-anchor="end" font-family="'Fira Code', monospace" font-size="18" fill="#FFFFFF">MULTI-STATE NETWORK</text>
+  <g transform="translate(20,12)" fill="none" stroke-width="2">
+    <circle cx="8" cy="8" r="8" stroke="#E7AE59" />
+    <path d="M8 0 A8 8 0 0 1 16 8" stroke="#AC2D21" />
+    <path d="M0 8 A8 8 0 0 1 8 0" stroke="#AC2D21" />
+  </g>
+</svg>

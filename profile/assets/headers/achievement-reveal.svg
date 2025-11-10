@@ -1,0 +1,77 @@
+<svg width="860" height="160" viewBox="0 0 860 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Achievement Indicators header reveal</title>
+  <desc id="desc">Animated crypto text reveal for the Achievement Indicators section headline.</desc>
+  <defs>
+    <linearGradient id="frame-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AC2D21" />
+      <stop offset="50%" stop-color="#E7AE59" />
+      <stop offset="100%" stop-color="#AC2D21" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .frame-line {
+        stroke: url(#frame-gradient);
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-dasharray: 20 12;
+        opacity: 0.6;
+      }
+
+      text {
+        font-family: 'Fira Code', monospace;
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: 6px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        opacity: 0;
+      }
+
+      .final { filter: url(#glow); }
+
+      .heartbeat {
+        fill: none;
+        stroke: url(#frame-gradient);
+        stroke-width: 2.1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 230 460;
+        filter: url(#glow);
+        opacity: 0.9;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        text { fill: #E7AE59; }
+      }
+
+      @media (prefers-color-scheme: light) {
+        text { fill: #AC2D21; }
+      }
+    </style>
+  </defs>
+
+  <line class="frame-line" x1="70" y1="18" x2="790" y2="18" />
+  <line class="frame-line" x1="70" y1="102" x2="790" y2="102" />
+
+  <text x="430" y="70">ACH!EVEM3NT IND!CAT0RS
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.08;0.2" dur="2.4s" fill="freeze" />
+  </text>
+  <text x="430" y="70">ACHIEVEM#NT INDICAT@RS
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0.22;0.38;0.54" dur="2.4s" fill="freeze" />
+  </text>
+  <text x="430" y="70">ACHIEVEMENT INDICATOR$
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0.56;0.7;0.82" dur="2.4s" fill="freeze" />
+  </text>
+  <text class="final" x="430" y="70">ACHIEVEMENT INDICATORS
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.8;1" dur="2.4s" fill="freeze" />
+  </text>
+  <path class="heartbeat" d="M80 134 h48 l12 32 l20 -58 l16 26 h38 l16 22 l20 -48 h52 l14 20 l20 -36 h60 l18 40 l24 -64 l16 26 h52 l18 26 l20 -42 h70" >
+    <animate attributeName="stroke-dashoffset" values="0;700" dur="2.6s" repeatCount="indefinite" />
+  </path>
+</svg>

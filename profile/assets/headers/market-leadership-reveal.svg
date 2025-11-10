@@ -1,0 +1,82 @@
+<svg width="880" height="170" viewBox="0 0 880 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Market Leadership &amp; Portfolio Differentiators header reveal</title>
+  <desc id="desc">Animated crypto text reveal for the Market Leadership &amp; Portfolio Differentiators section headline.</desc>
+  <defs>
+    <linearGradient id="frame-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AC2D21" />
+      <stop offset="50%" stop-color="#E7AE59" />
+      <stop offset="100%" stop-color="#AC2D21" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      text {
+        font-family: 'Fira Code', monospace;
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        opacity: 0;
+      }
+
+      .final { filter: url(#glow); }
+
+      .heartbeat {
+        fill: none;
+        stroke: url(#frame-gradient);
+        stroke-width: 2.1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 260 520;
+        filter: url(#glow);
+        opacity: 0.9;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        text { fill: #E7AE59; }
+      }
+
+      @media (prefers-color-scheme: light) {
+        text { fill: #AC2D21; }
+      }
+    </style>
+  </defs>
+
+  <text x="440" y="68"><![CDATA[MARK3T LE@DERSH!P]]>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.08;0.24" dur="2.8s" fill="freeze" />
+  </text>
+  <text x="440" y="108"><![CDATA[& P0RTF0!IO DIFF3RENTIAT0RS]]>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.08;0.24" dur="2.8s" fill="freeze" />
+  </text>
+
+  <text x="440" y="68"><![CDATA[MARKET L3ADERSHIP]]>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0.26;0.44;0.62" dur="2.8s" fill="freeze" />
+  </text>
+  <text x="440" y="108"><![CDATA[& PORTF0LIO D!FFERENTIATORS]]>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0.26;0.44;0.62" dur="2.8s" fill="freeze" />
+  </text>
+
+  <text x="440" y="68"><![CDATA[MARKET LEADERSHIP]]>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0.64;0.78;0.9" dur="2.8s" fill="freeze" />
+  </text>
+  <text x="440" y="108"><![CDATA[& PORTFOLIO DIFFERENT!ATORS]]>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0.64;0.78;0.9" dur="2.8s" fill="freeze" />
+  </text>
+
+  <text class="final" x="440" y="68">MARKET LEADERSHIP
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.88;1" dur="2.8s" fill="freeze" />
+  </text>
+  <text class="final" x="440" y="108">&amp; PORTFOLIO DIFFERENTIATORS
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.88;1" dur="2.8s" fill="freeze" />
+  </text>
+
+  <path class="heartbeat" d="M110 152 h54 l14 -34 l22 60 l16 -24 h42 l18 -24 l22 48 h58 l16 -22 l22 38 h64 l20 -44 l26 68 l18 -28 h56 l20 -28 l24 44 h76" >
+    <animate attributeName="stroke-dashoffset" values="0;760" dur="2.9s" repeatCount="indefinite" />
+  </path>
+</svg>

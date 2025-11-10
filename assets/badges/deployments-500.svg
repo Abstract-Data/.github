@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="48" viewBox="0 0 320 48" role="img" aria-labelledby="deploymentsTitle deploymentsDesc">
+  <title id="deploymentsTitle">Deployments Badge</title>
+  <desc id="deploymentsDesc">Badge highlighting over 500 production deployments.</desc>
+  <defs>
+    <linearGradient id="deployGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AC2D21" />
+      <stop offset="100%" stop-color="#E7AE59" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="48" rx="12" fill="#0A0E27" stroke="url(#deployGradient)" stroke-width="2" />
+  <text x="60" y="30" font-family="'Fira Code', monospace" font-size="18" fill="#E7AE59">DEPLOYMENTS:</text>
+  <text x="300" y="30" text-anchor="end" font-family="'Fira Code', monospace" font-size="18" fill="#FFFFFF">500+ PRODUCTION</text>
+  <circle cx="28" cy="24" r="10" fill="#AC2D21" opacity="0.85" />
+  <circle cx="28" cy="24" r="6" fill="#E7AE59">
+    <animate attributeName="r" values="5;7;5" dur="3.2s" repeatCount="indefinite" />
+  </circle>
+</svg>

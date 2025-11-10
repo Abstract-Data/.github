@@ -1,0 +1,87 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Data infrastructure capability card</title>
+  <desc id="desc">Animated hexagonal card highlighting national-scale data infrastructure projects.</desc>
+  <defs>
+    <style>
+      @keyframes hex-pulse {
+        0%, 100% { stroke-width: 2; }
+        50% { stroke-width: 3; }
+      }
+
+      @keyframes icon-spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @keyframes text-glow {
+        0%, 100% { filter: drop-shadow(0 0 4px #E7AE59); }
+        50% { filter: drop-shadow(0 0 8px #AC2D21); }
+      }
+
+      .hex-border {
+        stroke: #E7AE59;
+        animation: hex-pulse 4s ease-in-out infinite;
+      }
+
+      .capability-surface {
+        fill: #11183C;
+      }
+
+      .capability-icon {
+        animation: icon-spin 18s linear infinite;
+        transform-origin: 30px 30px;
+      }
+
+      .capability-text {
+        font-family: 'Fira Code', monospace;
+        animation: text-glow 5s ease-in-out infinite;
+      }
+
+      .subtext {
+        font-size: 11px;
+        opacity: 0.8;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .hex-border {
+          fill: none;
+        }
+
+        .capability-text {
+          fill: #FFFFFF;
+        }
+
+        .capability-surface {
+          fill: none;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        .hex-border {
+          fill: none;
+        }
+
+        .capability-text {
+          fill: #AC2D21;
+        }
+
+        .capability-surface {
+          fill: none;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect x="10" y="10" width="280" height="100" rx="16" class="hex-border" />
+
+  <g class="capability-icon" transform="translate(40, 45)">
+    <rect x="-18" y="-18" width="36" height="36" rx="6" fill="#E7AE59" opacity="0.15" />
+    <rect x="-10" y="-12" width="20" height="12" rx="3" fill="#E7AE59" opacity="0.5" />
+    <rect x="-14" y="4" width="28" height="10" rx="3" fill="#AC2D21" opacity="0.8" />
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF" />
+  </g>
+
+  <text class="capability-text" x="110" y="55" font-size="16" font-weight="bold">DATA INFRASTRUCTURE</text>
+  <text class="capability-text subtext" x="110" y="78">Multi-state ingestion, lineage, warehousing</text>
+</svg>
+

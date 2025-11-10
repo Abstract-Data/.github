@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="48" viewBox="0 0 260 48" role="img" aria-labelledby="operationalTitle operationalDesc">
+  <title id="operationalTitle">Operational Badge</title>
+  <desc id="operationalDesc">Badge indicating active deployment status.</desc>
+  <defs>
+    <linearGradient id="badgeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A0E27" />
+      <stop offset="100%" stop-color="#11183C" />
+    </linearGradient>
+  </defs>
+  <rect width="260" height="48" rx="12" fill="url(#badgeGradient)" stroke="#AC2D21" stroke-width="2" />
+  <text x="24" y="30" font-family="'Fira Code', monospace" font-size="18" fill="#E7AE59">MISSION STATUS:</text>
+  <text x="200" y="30" text-anchor="end" font-family="'Fira Code', monospace" font-size="18" fill="#FFFFFF">OPERATIONAL</text>
+  <circle cx="230" cy="24" r="8" fill="#AC2D21">
+    <animate attributeName="r" values="6;8;6" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite" />
+  </circle>
+</svg>

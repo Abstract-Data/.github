@@ -1,0 +1,160 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Market leadership radar chart</title>
+  <desc id="desc">Animated radar chart comparing Abstract Data capabilities to industry averages.</desc>
+  <defs>
+    <style>
+      @keyframes radar-spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @keyframes polygon-expand {
+        0% { opacity: 0; transform: scale(0.8); }
+        100% { opacity: 0.9; transform: scale(1); }
+      }
+
+      @keyframes data-point-pulse {
+        0%, 100% { r: 4; }
+        50% { r: 6; }
+      }
+
+      text {
+        font-family: 'Fira Code', monospace;
+        fill: #E7AE59;
+        font-size: 12px;
+      }
+
+      .radar-axis {
+        stroke: #E7AE59;
+        stroke-width: 1;
+        opacity: 0.3;
+      }
+
+      .radar-ring {
+        stroke: #AC2D21;
+        stroke-width: 1;
+        fill: none;
+        opacity: 0.2;
+      }
+
+      .radar-scan {
+        animation: radar-spin 10s linear infinite;
+        opacity: 0.1;
+        transform-origin: 300px 300px;
+      }
+
+      .industry-polygon {
+        fill: #666666;
+        opacity: 0.2;
+        stroke: #CCCCCC;
+      }
+
+      .abstract-polygon {
+        fill: #AC2D21;
+        opacity: 0.4;
+        stroke: #E7AE59;
+        stroke-width: 2;
+        animation: polygon-expand 2s ease-out forwards;
+        transform-origin: 300px 300px;
+      }
+
+      .data-point {
+        fill: #E7AE59;
+        animation: data-point-pulse 2.2s ease-in-out infinite;
+      }
+
+      .scale-label {
+        font-size: 10px;
+        fill: #9EA4C4;
+      }
+
+      .legend-label {
+        font-size: 12px;
+        fill: #FFFFFF;
+      }
+
+      .legend-swatch {
+        stroke: #E7AE59;
+        stroke-width: 1;
+      }
+
+      .legend-abstract {
+        fill: #AC2D21;
+        opacity: 0.5;
+      }
+
+      .legend-industry {
+        fill: #777777;
+        opacity: 0.4;
+      }
+
+      .callout {
+        font-size: 11px;
+        fill: #FFFFFF;
+      }
+    </style>
+  </defs>
+
+  <rect width="600" height="600" fill="#0A0E27" rx="24" />
+
+  <g transform="translate(0, 0)">
+    <circle class="radar-ring" cx="300" cy="300" r="55" />
+    <circle class="radar-ring" cx="300" cy="300" r="110" />
+    <circle class="radar-ring" cx="300" cy="300" r="165" />
+    <circle class="radar-ring" cx="300" cy="300" r="220" />
+
+    <line class="radar-axis" x1="300" y1="300" x2="300" y2="80" />
+    <line class="radar-axis" x1="300" y1="300" x2="455.6" y2="144.4" />
+    <line class="radar-axis" x1="300" y1="300" x2="520" y2="300" />
+    <line class="radar-axis" x1="300" y1="300" x2="455.6" y2="455.6" />
+    <line class="radar-axis" x1="300" y1="300" x2="300" y2="520" />
+    <line class="radar-axis" x1="300" y1="300" x2="144.4" y2="455.6" />
+    <line class="radar-axis" x1="300" y1="300" x2="80" y2="300" />
+    <line class="radar-axis" x1="300" y1="300" x2="144.4" y2="144.4" />
+
+    <text x="300" y="40" text-anchor="middle">Architecture</text>
+    <text x="510" y="150">Code Quality</text>
+    <text x="560" y="320">Security</text>
+    <text x="510" y="470">AI Integration</text>
+    <text x="300" y="565" text-anchor="middle">Scalability</text>
+    <text x="100" y="495">Reliability</text>
+    <text x="40" y="320">Velocity</text>
+    <text x="100" y="150">Compliance</text>
+
+    <text class="scale-label" x="300" y="248" text-anchor="middle">25%</text>
+    <text class="scale-label" x="300" y="193" text-anchor="middle">50%</text>
+    <text class="scale-label" x="300" y="138" text-anchor="middle">75%</text>
+    <text class="scale-label" x="300" y="86" text-anchor="middle">100%</text>
+
+    <polygon class="industry-polygon" points="300,201 385.6,214.4 432,300 377.8,377.8 300,377 198.9,401.1 212,300 253.3,253.3" />
+    <polygon class="abstract-polygon" points="300,91 447.8,152.2 502.4,300 440,440 300,502.4 152.2,447.8 88.8,300 144.4,144.4" />
+
+    <circle class="data-point" cx="300" cy="91" r="4" />
+    <circle class="data-point" cx="447.8" cy="152.2" r="4" />
+    <circle class="data-point" cx="502.4" cy="300" r="4" />
+    <circle class="data-point" cx="440" cy="440" r="4" />
+    <circle class="data-point" cx="300" cy="502.4" r="4" />
+    <circle class="data-point" cx="152.2" cy="447.8" r="4" />
+    <circle class="data-point" cx="88.8" cy="300" r="4" />
+    <circle class="data-point" cx="144.4" cy="144.4" r="4" />
+
+    <path class="radar-scan" d="M300,300 L300,60 A240,240 0 0 1 480,140 Z" fill="#E7AE59" />
+
+    <g class="legend" transform="translate(380, 60)">
+      <rect class="legend-swatch legend-abstract" x="0" y="0" width="20" height="12" rx="2" />
+      <text class="legend-label" x="28" y="10">Abstract Data</text>
+      <rect class="legend-swatch legend-industry" x="0" y="20" width="20" height="12" rx="2" />
+      <text class="legend-label" x="28" y="30">Industry Median</text>
+    </g>
+
+    <text class="callout" x="300" y="76" text-anchor="middle">95% architecture maturity vs 45%</text>
+    <text class="callout" x="470" y="150">QA automation 95% vs 55%</text>
+    <text class="callout" x="520" y="292">Security posture 92% vs 60%</text>
+    <text class="callout" x="455" y="462" text-anchor="middle">AI integration 90% vs 50%</text>
+    <text class="callout" x="300" y="536" text-anchor="middle">Scalability 92% vs 35%</text>
+    <text class="callout" x="155" y="470" text-anchor="middle">Reliability 95% vs 65%</text>
+    <text class="callout" x="84" y="312" text-anchor="middle">Velocity 96% vs 40%</text>
+    <text class="callout" x="155" y="135" text-anchor="middle">Compliance 100% vs 30%</text>
+  </g>
+</svg>
+

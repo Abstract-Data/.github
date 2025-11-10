@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="48" viewBox="0 0 300 48" role="img" aria-labelledby="cycleTitle cycleDesc">
+  <title id="cycleTitle">Current Cycle Badge</title>
+  <desc id="cycleDesc">Badge indicating active 2026 election cycle operations.</desc>
+  <defs>
+    <linearGradient id="cycleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A0E27" />
+      <stop offset="100%" stop-color="#11183C" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="48" rx="12" fill="url(#cycleGradient)" stroke="#E7AE59" stroke-width="2" />
+  <text x="60" y="30" font-family="'Fira Code', monospace" font-size="18" fill="#E7AE59">CYCLE:</text>
+  <text x="284" y="30" text-anchor="end" font-family="'Fira Code', monospace" font-size="18" fill="#FFFFFF">2026 SYSTEM</text>
+  <g transform="translate(18,12)" stroke="#E7AE59" stroke-width="2" fill="none">
+    <circle cx="12" cy="12" r="10" />
+    <path d="M12 4 V12 H20" />
+  </g>
+</svg>

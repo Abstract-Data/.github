@@ -1,0 +1,112 @@
+<svg width="250" height="80" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">95%+ coverage badge</title>
+  <desc id="desc">Animated holographic badge highlighting ninety five percent plus automated test coverage.</desc>
+  <defs>
+    <style>
+      @keyframes badge-glow {
+        0%, 100% { filter: drop-shadow(0 0 6px #E7AE59); }
+        50% { filter: drop-shadow(0 0 16px #AC2D21); }
+      }
+
+      @keyframes hologram-scan {
+        0% { opacity: 0; transform: translateX(-100%); }
+        50% { opacity: 0.4; }
+        100% { opacity: 0; transform: translateX(100%); }
+      }
+
+      @keyframes counter-increment {
+        0% { opacity: 0; transform: scale(0.9); }
+        100% { opacity: 1; transform: scale(1); }
+      }
+
+      .badge-container {
+        animation: badge-glow 3s ease-in-out infinite;
+      }
+
+      .hologram-line {
+        animation: hologram-scan 2.6s linear infinite;
+      }
+
+      .badge-value {
+        animation: counter-increment 1.2s ease-out;
+      }
+
+      text {
+        font-family: 'Fira Code', monospace;
+      }
+
+      .badge-surface {
+        fill: none;
+      }
+
+      .highlight {
+        fill: #E7AE59;
+      }
+
+      .muted {
+        fill: #999999;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .badge-surface {
+          fill: none;
+        }
+
+        text {
+          fill: #FFFFFF;
+        }
+
+        .highlight {
+          fill: #E7AE59;
+        }
+
+        .muted {
+          fill: #999999;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        text {
+          fill: #AC2D21;
+        }
+
+        .highlight {
+          fill: #C44632;
+        }
+
+        .muted {
+          fill: #7A7A86;
+        }
+      }
+    </style>
+
+    <linearGradient id="badge-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E27" />
+      <stop offset="100%" stop-color="#11183C" />
+    </linearGradient>
+
+    <linearGradient id="badge-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E7AE59" />
+      <stop offset="50%" stop-color="#AC2D21" />
+      <stop offset="100%" stop-color="#E7AE59" />
+    </linearGradient>
+  </defs>
+
+  <g class="badge-container">
+    <rect class="badge-surface" x="5" y="5" width="240" height="70" rx="12" stroke="url(#badge-border)" stroke-width="2" />
+    <rect class="hologram-line" x="10" y="15" width="230" height="2" fill="#AC2D21" />
+
+    <g transform="translate(38, 40)">
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#E7AE59" stroke-width="3" stroke-dasharray="12 6">
+        <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="8s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="0" cy="0" r="8" fill="#E7AE59" opacity="0.6" />
+      <polyline points="-8 4 -2 0 -8 -4" fill="none" stroke="#0A0E27" stroke-width="2" />
+    </g>
+
+    <text class="highlight" x="68" y="32" font-size="11">AUTOMATED</text>
+    <text class="badge-value" x="68" y="54" font-size="25" font-weight="bold">95%+</text>
+    <text class="muted" x="148" y="54" font-size="11">TEST COVERAGE</text>
+  </g>
+</svg>
+

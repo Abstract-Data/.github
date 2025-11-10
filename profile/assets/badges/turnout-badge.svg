@@ -1,0 +1,108 @@
+<svg width="250" height="80" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">8.6 percent turnout improvement badge</title>
+  <desc id="desc">Animated holographic badge showcasing turnout improvement impact.</desc>
+  <defs>
+    <style>
+      @keyframes badge-glow {
+        0%, 100% { filter: drop-shadow(0 0 6px #E7AE59); }
+        50% { filter: drop-shadow(0 0 18px #AC2D21); }
+      }
+
+      @keyframes hologram-scan {
+        0% { opacity: 0; transform: translateX(-100%); }
+        50% { opacity: 0.4; }
+        100% { opacity: 0; transform: translateX(100%); }
+      }
+
+      @keyframes counter-increment {
+        0% { opacity: 0; transform: scale(0.9); }
+        100% { opacity: 1; transform: scale(1); }
+      }
+
+      .badge-container {
+        animation: badge-glow 3.2s ease-in-out infinite;
+      }
+
+      .hologram-line {
+        animation: hologram-scan 2.8s linear infinite;
+      }
+
+      .badge-value {
+        animation: counter-increment 1.2s ease-out;
+      }
+
+      text {
+        font-family: 'Fira Code', monospace;
+      }
+
+      .badge-surface {
+        fill: none;
+      }
+
+      .highlight {
+        fill: #E7AE59;
+      }
+
+      .muted {
+        fill: #999999;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        text {
+          fill: #FFFFFF;
+        }
+
+        .highlight {
+          fill: #E7AE59;
+        }
+
+        .muted {
+          fill: #999999;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        text {
+          fill: #AC2D21;
+        }
+
+        .highlight {
+          fill: #C44632;
+        }
+
+        .muted {
+          fill: #7A7A86;
+        }
+      }
+    </style>
+
+    <linearGradient id="badge-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E27" />
+      <stop offset="100%" stop-color="#11183C" />
+    </linearGradient>
+
+    <linearGradient id="badge-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E7AE59" />
+      <stop offset="50%" stop-color="#AC2D21" />
+      <stop offset="100%" stop-color="#E7AE59" />
+    </linearGradient>
+  </defs>
+
+  <g class="badge-container">
+    <rect class="badge-surface" x="5" y="5" width="240" height="70" rx="12" stroke="url(#badge-border)" stroke-width="2" />
+    <rect class="hologram-line" x="12" y="20" width="226" height="2" fill="#E7AE59" />
+
+    <g transform="translate(40, 42)">
+      <polyline points="-18 12 -8 -4 0 4 10 -12 18 6" fill="none" stroke="#E7AE59" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <animate attributeName="stroke-dasharray" values="0,80;80,0" dur="3s" repeatCount="indefinite" />
+      </polyline>
+      <circle cx="18" cy="6" r="4" fill="#AC2D21" />
+      <polygon points="18 0 26 6 18 12" fill="#E7AE59" />
+    </g>
+
+    <text class="highlight" x="68" y="32" font-size="11">TURNOUT LIFT</text>
+    <text class="badge-value" x="68" y="54" font-size="25" font-weight="bold">+8.6%</text>
+    <text class="muted" x="150" y="54" font-size="11">ENGAGEMENT</text>
+  </g>
+</svg>
+

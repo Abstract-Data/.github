@@ -1,0 +1,149 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract Data metrics dashboard</title>
+  <desc id="desc">Animated heads-up display cards presenting deployments, coverage, compliance, and impact metrics.</desc>
+  <defs>
+    <style>
+      @keyframes hud-frame {
+        0%, 100% { stroke-dashoffset: 0; }
+        50% { stroke-dashoffset: -24; }
+      }
+
+      @keyframes count-up {
+        0% { opacity: 0; transform: translateY(20px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes particle {
+        0% { opacity: 0.6; transform: translate(0, 0) scale(1); }
+        100% { opacity: 0; transform: translate(var(--tx), var(--ty)) scale(0.2); }
+      }
+
+      @keyframes achievement-glow {
+        0%, 100% { filter: drop-shadow(0 0 6px #AC2D21); }
+        50% { filter: drop-shadow(0 0 16px #E7AE59); }
+      }
+
+      .hud-border {
+        stroke: url(#circuit-gradient);
+        stroke-width: 2;
+        stroke-dasharray: 14 6;
+        animation: hud-frame 4s linear infinite;
+        fill: none;
+      }
+
+      .metric-value {
+        animation: count-up 1.2s ease-out;
+        filter: url(#glow-gold);
+      }
+
+      .metric-card text {
+        font-family: 'Fira Code', monospace;
+      }
+
+      .metric-title {
+        font-size: 14px;
+        letter-spacing: 2px;
+      }
+
+      .metric-subtitle {
+        font-size: 10px;
+      }
+
+      .achievement-badge {
+        animation: achievement-glow 3s ease-in-out infinite;
+      }
+
+      .particle {
+        fill: #E7AE59;
+        opacity: 0;
+        animation: particle 3.5s ease-in-out infinite;
+      }
+      .panel {
+        fill: none;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .metric-card text {
+          fill: #FFFFFF;
+        }
+
+        .metric-title {
+          fill: #E7AE59;
+        }
+
+        .metric-subtitle {
+          fill: #999999;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        .metric-card text {
+          fill: #AC2D21;
+        }
+
+        .metric-title {
+          fill: #C44632;
+        }
+
+        .metric-subtitle {
+          fill: #7A7A86;
+        }
+      }
+    </style>
+
+    <linearGradient id="circuit-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AC2D21" />
+      <stop offset="100%" stop-color="#E7AE59" />
+    </linearGradient>
+
+    <filter id="glow-gold" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect class="panel" width="1200" height="250" rx="20" />
+
+  <g class="metric-card" transform="translate(60, 40)">
+    <rect class="hud-border" x="0" y="0" width="250" height="170" rx="12" />
+    <text class="metric-title" x="125" y="40" text-anchor="middle">DEPLOYMENTS</text>
+    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">500+</text>
+    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">PRODUCTION SCALE</text>
+    <circle class="particle" cx="120" cy="80" r="3" style="--tx: 12px; --ty: -18px;" />
+    <circle class="particle" cx="130" cy="90" r="2" style="--tx: -15px; --ty: -20px; animation-delay: 0.6s;" />
+  </g>
+
+  <g class="metric-card" transform="translate(340, 40)">
+    <rect class="hud-border" x="0" y="0" width="250" height="170" rx="12" />
+    <text class="metric-title" x="125" y="40" text-anchor="middle">TEST COVERAGE</text>
+    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">95%+</text>
+    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">AUTOMATED SUITES</text>
+    <circle class="particle" cx="110" cy="90" r="3" style="--tx: 18px; --ty: -14px; animation-delay: 0.4s;" />
+    <circle class="particle" cx="140" cy="110" r="2" style="--tx: -16px; --ty: -28px; animation-delay: 1s;" />
+  </g>
+
+  <g class="metric-card" transform="translate(620, 40)">
+    <rect class="hud-border achievement-badge" x="0" y="0" width="250" height="170" rx="12" />
+    <text class="metric-title" x="125" y="40" text-anchor="middle">COMPLIANCE</text>
+    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">0</text>
+    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">TCPA VIOLATIONS</text>
+    <circle class="particle" cx="120" cy="80" r="3" style="--tx: 10px; --ty: -24px; animation-delay: 0.8s;" />
+    <circle class="particle" cx="140" cy="100" r="2" style="--tx: -12px; --ty: -18px; animation-delay: 1.4s;" />
+  </g>
+
+  <g class="metric-card" transform="translate(900, 40)">
+    <rect class="hud-border" x="0" y="0" width="250" height="170" rx="12" />
+    <text class="metric-title" x="125" y="40" text-anchor="middle">TURNOUT IMPACT</text>
+    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">+8.6%</text>
+    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">LIFT PER OUTREACH</text>
+    <polygon points="125,70 135,90 115,90" fill="#E7AE59" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </polygon>
+    <circle class="particle" cx="120" cy="90" r="3" style="--tx: 14px; --ty: -20px; animation-delay: 0.2s;" />
+    <circle class="particle" cx="130" cy="110" r="2" style="--tx: -18px; --ty: -26px; animation-delay: 1.2s;" />
+  </g>
+</svg>
+

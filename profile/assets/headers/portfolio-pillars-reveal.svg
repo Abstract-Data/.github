@@ -1,0 +1,69 @@
+<svg width="820" height="150" viewBox="0 0 820 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio Pillars header reveal</title>
+  <desc id="desc">Animated crypto text reveal for the Portfolio Pillars section headline.</desc>
+  <defs>
+    <linearGradient id="frame-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AC2D21" />
+      <stop offset="50%" stop-color="#E7AE59" />
+      <stop offset="100%" stop-color="#AC2D21" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      text {
+        font-family: 'Fira Code', monospace;
+        font-size: 42px;
+        font-weight: 600;
+        letter-spacing: 8px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        opacity: 0;
+      }
+
+      .final {
+        filter: url(#glow);
+      }
+
+      .heartbeat {
+        fill: none;
+        stroke: url(#frame-gradient);
+        stroke-width: 2.2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 220 440;
+        filter: url(#glow);
+        opacity: 0.9;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        text { fill: #E7AE59; }
+      }
+
+      @media (prefers-color-scheme: light) {
+        text { fill: #AC2D21; }
+      }
+    </style>
+  </defs>
+
+  <text x="410" y="70">P0R^FO!I0 PI!!ARS
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.08;0.16" dur="2.2s" fill="freeze" />
+  </text>
+  <text x="410" y="70">PORT#F0L!O P1LL@RS
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0.16;0.3;0.44" dur="2.2s" fill="freeze" />
+  </text>
+  <text x="410" y="70">PORTFO!IO PILLA^S
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0.44;0.58;0.7" dur="2.2s" fill="freeze" />
+  </text>
+  <text class="final" x="410" y="70">PORTFOLIO PILLARS
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.68;1" dur="2.2s" fill="freeze" />
+  </text>
+
+  <path class="heartbeat" d="M70 122 h44 l12 30 l18 -54 l16 22 h36 l16 20 l18 -44 h48 l14 18 l18 -34 h52 l16 38 l22 -58 l14 24 h48 l16 24 l18 -40 h66" >
+    <animate attributeName="stroke-dashoffset" values="0;660" dur="2.6s" repeatCount="indefinite" />
+  </path>
+</svg>

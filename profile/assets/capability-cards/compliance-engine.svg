@@ -1,0 +1,75 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Compliance automation capability card</title>
+  <desc id="desc">Animated card highlighting proactive compliance automation projects.</desc>
+  <defs>
+    <style>
+      @keyframes hex-pulse {
+        0%, 100% { stroke-width: 2; }
+        50% { stroke-width: 3; }
+      }
+
+      @keyframes icon-ping {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes text-glow {
+        0%, 100% { filter: drop-shadow(0 0 4px #AC2D21); }
+        50% { filter: drop-shadow(0 0 8px #E7AE59); }
+      }
+
+      .hex-border {
+        stroke: #AC2D21;
+        animation: hex-pulse 4s ease-in-out infinite;
+      }
+
+      .capability-text {
+        font-family: 'Fira Code', monospace;
+        animation: text-glow 5s ease-in-out infinite;
+      }
+
+      .subtext {
+        font-size: 11px;
+        opacity: 0.8;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .hex-border {
+          fill: none;
+        }
+
+        .capability-text {
+          fill: #FFFFFF;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        .hex-border {
+          fill: none;
+        }
+
+        .capability-text {
+          fill: #AC2D21;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect x="10" y="10" width="280" height="100" rx="16" class="hex-border" />
+
+  <g transform="translate(50, 45)">
+    <rect x="-22" y="-22" width="44" height="44" rx="10" fill="#AC2D21" opacity="0.25" />
+    <rect x="-16" y="-12" width="32" height="24" rx="6" fill="#E7AE59" opacity="0.2" />
+    <path d="M-10 0 L0 -10 L10 0 L0 10 Z" fill="#E7AE59" opacity="0.6" />
+    <circle cx="0" cy="0" r="5" fill="#FFFFFF">
+      <animate attributeName="r" values="5;8;5" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="14" fill="#E7AE59" opacity="0.15">
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <text class="capability-text" x="110" y="55" font-size="16" font-weight="bold">COMPLIANCE AUTOMATION</text>
+  <text class="capability-text subtext" x="110" y="78">Proactive TCPA & DNC enforcement</text>
+</svg>
+

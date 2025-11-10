@@ -1,0 +1,76 @@
+<svg width="900" height="150" viewBox="0 0 900 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Technology, Tools, and Stack header reveal</title>
+  <desc id="desc">Animated crypto text reveal for the Technology, Tools, and Stack section headline.</desc>
+  <defs>
+    <linearGradient id="frame-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AC2D21" />
+      <stop offset="50%" stop-color="#E7AE59" />
+      <stop offset="100%" stop-color="#AC2D21" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .frame-line {
+        stroke: url(#frame-gradient);
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-dasharray: 20 12;
+        opacity: 0.6;
+      }
+
+      text {
+        font-family: 'Fira Code', monospace;
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: 6px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        opacity: 0;
+      }
+
+      .final { filter: url(#glow); }
+
+      @media (prefers-color-scheme: dark) {
+        text { fill: #E7AE59; }
+      }
+
+      @media (prefers-color-scheme: light) {
+        text { fill: #AC2D21; }
+      }
+      .heartbeat {
+        fill: none;
+        stroke: url(#frame-gradient);
+        stroke-width: 2.1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 240 480;
+        filter: url(#glow);
+        opacity: 0.9;
+      }
+    </style>
+  </defs>
+
+  <line class="frame-line" x1="70" y1="18" x2="830" y2="18" />
+  <line class="frame-line" x1="70" y1="102" x2="830" y2="102" />
+
+  <text x="450" y="70">TECH^0!0GY, T00LS, ^ND ST@CK
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.08;0.2" dur="2.6s" fill="freeze" />
+  </text>
+  <text x="450" y="70">TECHNO!OGY, TOOLS, &amp;N# STAC$
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0.22;0.38;0.54" dur="2.6s" fill="freeze" />
+  </text>
+  <text x="450" y="70">TECHNOLOGY, TOOLS, AND ST@CK
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0.56;0.7;0.84" dur="2.6s" fill="freeze" />
+  </text>
+  <text class="final" x="450" y="70">TECHNOLOGY, TOOLS, AND STACK
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.82;1" dur="2.6s" fill="freeze" />
+  </text>
+  <path class="heartbeat" d="M80 124 h48 l12 30 l18 -56 l16 24 h38 l16 20 l18 -42 h52 l14 18 l20 -34 h56 l16 38 l22 -60 l16 26 h50 l18 24 l20 -40 h70" >
+    <animate attributeName="stroke-dashoffset" values="0;680" dur="2.6s" repeatCount="indefinite" />
+  </path>
+</svg>

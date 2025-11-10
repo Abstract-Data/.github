@@ -1,0 +1,70 @@
+name: Update Organization Profile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9 * * *'
+
+jobs:
+  refresh-profile:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies (if package.json present)
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          fi
+
+      - name: Generate stats payload
+        run: node scripts/generate-stats.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate organization markdown
+        run: npx --yes markdownlint-cli2 profile/README.md
+
+      - name: Verify asset references
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          const readmePath = path.resolve('profile/README.md');
+          const repoRoot = process.cwd();
+          const content = fs.readFileSync(readmePath, 'utf8');
+          const regex = /(?:\.\.\/)?assets\/[^\s)"']+/g;
+          const missing = new Set();
+          for (const match of content.matchAll(regex)) {
+            const assetPath = path.resolve(path.dirname(readmePath), match[0]);
+            if (!fs.existsSync(assetPath)) {
+              missing.add(match[0]);
+            }
+          }
+          if (missing.size > 0) {
+            console.error('Missing asset references detected:', Array.from(missing));
+            process.exit(1);
+          } else {
+            console.log('All referenced assets resolved successfully.');
+          }
+          NODE
+
+      - name: Commit updates
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "abstract-data-bot"
+            git config user.email "ops@abstractdata.io"
+            git add profile/stats.json
+            git commit -m "chore: refresh org profile stats"
+            git push
+          else
+            echo "No updates to commit"
+          fi

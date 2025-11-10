@@ -1,0 +1,74 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract Data system status footer</title>
+  <desc id="desc">Animated footer bar showing Abstract Data system operational status, uptime and deployment details.</desc>
+  <defs>
+    <style>
+      @keyframes status-pulse {
+        0%, 100% { fill: #00FF00; }
+        50% { fill: #00CC00; }
+      }
+
+      @keyframes uptime-bar {
+        0% { width: 0; }
+        100% { width: 95%; }
+      }
+
+      text {
+        font-family: 'Fira Code', monospace;
+        fill: #FFFFFF;
+      }
+
+      .panel {
+        fill: none;
+      }
+
+      .status-indicator {
+        animation: status-pulse 2s ease-in-out infinite;
+      }
+
+      .uptime-bar {
+        animation: uptime-bar 2s ease-out forwards;
+        transform-origin: left;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        text {
+          fill: #FFFFFF;
+        }
+
+        .headline {
+          fill: #E7AE59;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        text {
+          fill: #AC2D21;
+        }
+
+        .headline {
+          fill: #C44632;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect class="panel" width="1200" height="150" rx="20" />
+
+  <text class="headline" x="100" y="40" font-size="20" font-weight="bold">SYSTEM STATUS</text>
+  <circle class="status-indicator" cx="100" cy="70" r="10" />
+  <text x="120" y="75" font-size="14">All systems operational</text>
+
+  <text x="100" y="105" font-size="14" fill="#E7AE59">Uptime: 99.95%</text>
+  <rect x="100" y="115" width="420" height="12" rx="6" fill="none" stroke="#E7AE59" stroke-width="1" />
+  <rect class="uptime-bar" x="100" y="115" width="0" height="12" rx="6" fill="#E7AE59" />
+
+  <text x="600" y="75" font-size="14">Last deployment: 2 hours ago</text>
+  <text x="600" y="105" font-size="14">Platform version: v2.4.1</text>
+
+  <text class="headline" x="900" y="40" font-size="16">Live Telemetry</text>
+  <text x="900" y="70" font-size="12">Pipelines: 48 running</text>
+  <text x="900" y="90" font-size="12">Validation latency: 210ms</text>
+  <text x="900" y="110" font-size="12">Compliance checks: 3.2M/day</text>
+</svg>
+

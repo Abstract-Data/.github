@@ -1,0 +1,77 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI quality systems capability card</title>
+  <desc id="desc">Animated card showcasing AI-driven data quality and anomaly detection systems.</desc>
+  <defs>
+    <style>
+      @keyframes hex-pulse {
+        0%, 100% { stroke-width: 2; }
+        50% { stroke-width: 3; }
+      }
+
+      @keyframes radar-spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @keyframes text-glow {
+        0%, 100% { filter: drop-shadow(0 0 4px #E7AE59); }
+        50% { filter: drop-shadow(0 0 8px #AC2D21); }
+      }
+
+      .hex-border {
+        stroke: #E7AE59;
+        animation: hex-pulse 4s ease-in-out infinite;
+      }
+
+      .capability-text {
+        font-family: 'Fira Code', monospace;
+        animation: text-glow 5s ease-in-out infinite;
+      }
+
+      .subtext {
+        font-size: 11px;
+        opacity: 0.8;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .hex-border {
+          fill: none;
+        }
+
+        .capability-text {
+          fill: #FFFFFF;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        .hex-border {
+          fill: none;
+        }
+
+        .capability-text {
+          fill: #AC2D21;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect x="10" y="10" width="280" height="100" rx="16" class="hex-border" />
+
+  <g transform="translate(50, 45)">
+    <circle cx="0" cy="0" r="22" fill="#E7AE59" opacity="0.15" />
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#AC2D21" stroke-width="2" stroke-dasharray="6 4">
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#E7AE59" stroke-width="1" stroke-dasharray="4 2" />
+    <line x1="0" y1="0" x2="0" y2="-14" stroke="#FFFFFF" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="6s" repeatCount="indefinite" />
+    </line>
+    <circle cx="0" cy="-14" r="3" fill="#FFFFFF">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <text class="capability-text" x="110" y="55" font-size="16" font-weight="bold">AI QUALITY SYSTEMS</text>
+  <text class="capability-text subtext" x="110" y="78">LLM anomaly detection & QA pipelines</text>
+</svg>
+

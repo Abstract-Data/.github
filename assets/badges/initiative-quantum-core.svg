@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="48" viewBox="0 0 300 48" role="img" aria-labelledby="initiativeTitle initiativeDesc">
+  <title id="initiativeTitle">Quantum Core Initiative Badge</title>
+  <desc id="initiativeDesc">Badge highlighting the Quantum Core innovation program.</desc>
+  <defs>
+    <linearGradient id="initiativeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E7AE59" />
+      <stop offset="100%" stop-color="#AC2D21" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="48" rx="12" fill="#0A0E27" stroke="#E7AE59" stroke-width="2" />
+  <text x="60" y="30" font-family="'Fira Code', monospace" font-size="18" fill="#E7AE59">INITIATIVE:</text>
+  <text x="284" y="30" text-anchor="end" font-family="'Fira Code', monospace" font-size="18" fill="#FFFFFF">QUANTUM CORE LABS</text>
+  <g transform="translate(16,12)" stroke="url(#initiativeGradient)" stroke-width="2" fill="none">
+    <circle cx="12" cy="12" r="10" />
+    <polygon points="12,4 18,12 12,20 6,12" stroke-linejoin="round">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 12 12" to="360 12 12" dur="6s" repeatCount="indefinite" />
+    </polygon>
+  </g>
+</svg>

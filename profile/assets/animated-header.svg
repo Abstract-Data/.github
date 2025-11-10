@@ -1,0 +1,174 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract Data animated portfolio header</title>
+  <desc id="desc">Animated header featuring the Abstract Data logo with neural path animations and glowing circuitry.</desc>
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E27" />
+      <stop offset="50%" stop-color="#11183C" />
+      <stop offset="100%" stop-color="#0A0E27" />
+    </linearGradient>
+
+    <linearGradient id="pulse-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AC2D21" />
+      <stop offset="50%" stop-color="#E7AE59" />
+      <stop offset="100%" stop-color="#AC2D21" />
+    </linearGradient>
+
+    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes nodePulse {
+        0%, 100% { opacity: 0.35; r: 3; }
+        50% { opacity: 1; r: 5; }
+      }
+
+      @keyframes pathFlow {
+        0% { stroke-dashoffset: 160; opacity: 0; }
+        15% { opacity: 0.6; }
+        85% { opacity: 0.6; }
+        100% { stroke-dashoffset: 0; opacity: 0; }
+      }
+
+      @keyframes scanSweep {
+        0% { transform: translateX(-100%); opacity: 0; }
+        20% { opacity: 0.4; }
+        80% { opacity: 0.4; }
+        100% { transform: translateX(100%); opacity: 0; }
+      }
+
+      @keyframes shimmer {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -200; }
+      }
+
+      .bg {
+        fill: none;
+      }
+
+      .path {
+        stroke: url(#pulse-gradient);
+        stroke-width: 2;
+        stroke-linecap: round;
+        fill: none;
+        stroke-dasharray: 14 8;
+        animation: pathFlow 5s ease-in-out infinite;
+      }
+
+      .path--slow {
+        animation-duration: 6.5s;
+        animation-delay: 1.5s;
+      }
+
+      .path--fast {
+        animation-duration: 4.5s;
+        animation-delay: 0.75s;
+      }
+
+      .node {
+        fill: #E7AE59;
+        filter: url(#soft-glow);
+        animation: nodePulse 3.2s ease-in-out infinite;
+      }
+
+      .node--alt {
+        fill: #AC2D21;
+        animation-duration: 2.8s;
+      }
+
+      .scanline {
+        stroke: url(#pulse-gradient);
+        stroke-width: 2;
+        stroke-dasharray: 40 12;
+        animation: shimmer 8s linear infinite;
+        opacity: 0.25;
+      }
+
+      .sweep {
+        animation: scanSweep 9s ease-in-out infinite;
+      }
+
+      .subtitle {
+        font: 20px 'Fira Code', monospace;
+        letter-spacing: 4px;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .bg {
+          fill: none;
+        }
+
+        .path {
+          stroke: url(#pulse-gradient);
+        }
+
+        .node {
+          fill: #E7AE59;
+        }
+
+        .node--alt {
+          fill: #AC2D21;
+        }
+
+        .subtitle {
+          fill: #E7AE59;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        .path {
+          stroke: #C44632;
+        }
+
+        .node {
+          fill: #C44632;
+        }
+
+        .node--alt {
+          fill: #E7AE59;
+        }
+
+        .subtitle {
+          fill: #C44632;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="420" rx="28" />
+
+  <g class="sweep">
+    <rect x="0" y="40" width="260" height="12" fill="url(#pulse-gradient)" opacity="0.18" />
+  </g>
+
+  <g transform="translate(210, 60)">
+    <image href="abstract-data-logo.png" x="0" y="0" width="280" height="280" preserveAspectRatio="xMidYMid meet" />
+
+    <g transform="translate(140, 140)">
+      <path class="path" d="M-120 -40 C-80 -120 40 -120 80 -40" />
+      <path class="path path--slow" d="M-110 60 C-40 20 40 40 90 -20" />
+      <path class="path path--fast" d="M-70 -100 C-20 -40 30 -40 70 -90" />
+      <path class="path" d="M-30 90 C10 60 60 80 100 30" />
+
+      <circle class="node" cx="-100" cy="-30" r="4" />
+      <circle class="node node--alt" cx="-50" cy="0" r="4" />
+      <circle class="node" cx="10" cy="-40" r="4" />
+      <circle class="node node--alt" cx="60" cy="-10" r="4" />
+      <circle class="node" cx="90" cy="40" r="4" />
+      <circle class="node node--alt" cx="-20" cy="70" r="4" />
+    </g>
+  </g>
+
+  <g transform="translate(540, 120)">
+    <line class="scanline" x1="0" y1="0" x2="480" y2="0" />
+    <line class="scanline" x1="0" y1="40" x2="480" y2="40" />
+    <line class="scanline" x1="0" y1="80" x2="480" y2="80" />
+    <text class="subtitle" x="0" y="140">AI INFRASTRUCTURE • COMPLIANCE • ENGAGEMENT</text>
+  </g>
+</svg>
+

@@ -1,0 +1,60 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="coreTitle coreDesc">
+  <title id="coreTitle">Abstract Data Quantum Core</title>
+  <desc id="coreDesc">Animated energy core emblem in Abstract Data colors.</desc>
+  <defs>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="45%" stop-color="#E7AE59" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0A0E27" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E7AE59" />
+      <stop offset="100%" stop-color="#AC2D21" />
+    </linearGradient>
+    <filter id="coreGlowBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      .rotor {
+        transform-origin: 160px 160px;
+        animation: rotate 12s linear infinite;
+      }
+      .outer-ring {
+        transform-origin: 160px 160px;
+        animation: rotate 20s linear infinite reverse;
+      }
+      .core {
+        animation: pulse 3s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <circle cx="160" cy="160" r="150" fill="#0A0E27" stroke="#AC2D21" stroke-width="4" />
+  <circle class="core" cx="160" cy="160" r="70" fill="url(#coreGlow)" filter="url(#coreGlowBlur)" />
+
+  <g class="rotor" stroke="url(#ringGradient)" stroke-width="10" fill="none">
+    <polygon points="160,40 200,120 120,120" />
+    <polygon points="280,160 200,200 200,120" />
+    <polygon points="160,280 120,200 200,200" />
+    <polygon points="40,160 120,120 120,200" />
+  </g>
+
+  <g class="outer-ring" stroke="#E7AE59" stroke-width="6" opacity="0.6">
+    <circle cx="160" cy="160" r="110" fill="none" />
+    <circle cx="160" cy="160" r="130" fill="none" />
+  </g>
+
+  <circle cx="160" cy="160" r="12" fill="#AC2D21" />
+</svg>

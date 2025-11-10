@@ -1,0 +1,20 @@
+<svg width="1200" height="40" viewBox="0 0 1200 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dividerTitle dividerDesc">
+  <title id="dividerTitle">Abstract Data Divider</title>
+  <desc id="dividerDesc">Decorative high-tech divider with glowing circuit traces.</desc>
+  <defs>
+    <linearGradient id="dividerGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#AC2D21" />
+      <stop offset="50%" stop-color="#E7AE59" />
+      <stop offset="100%" stop-color="#AC2D21" />
+    </linearGradient>
+    <filter id="dividerGlow" x="-50%" y="-200%" width="200%" height="400%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="18" width="1200" height="4" fill="#0A0E27" />
+  <path d="M0 20 H450 L520 4 L600 36 L680 4 L750 20 H1200" stroke="url(#dividerGradient)" stroke-width="4" fill="none" filter="url(#dividerGlow)" />
+</svg>

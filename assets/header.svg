@@ -1,0 +1,97 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract Data Neural Command Header</title>
+  <desc id="desc">Animated high-tech header with neural circuit motif and glowing typography for Abstract Data.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E27" />
+      <stop offset="100%" stop-color="#11183C" />
+    </linearGradient>
+    <linearGradient id="traceGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E7AE59" />
+      <stop offset="100%" stop-color="#AC2D21" />
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="0.5">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#E7AE59" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#AC2D21" stop-opacity="0" />
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 6px #E7AE59); }
+        50% { filter: drop-shadow(0 0 18px #AC2D21); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      @keyframes scan {
+        0% { transform: translateX(-1200px); }
+        100% { transform: translateX(1200px); }
+      }
+      .header-text {
+        font-family: 'Fira Code', 'JetBrains Mono', 'IBM Plex Mono', monospace;
+        font-size: 72px;
+        font-weight: 700;
+        letter-spacing: 14px;
+        fill: #E7AE59;
+        text-transform: uppercase;
+        animation: glow 4s ease-in-out infinite;
+      }
+      .subline {
+        font-family: 'Fira Code', 'JetBrains Mono', monospace;
+        font-size: 20px;
+        letter-spacing: 6px;
+        fill: #FFFFFF;
+        opacity: 0.8;
+      }
+      .circuit-node {
+        animation: pulse 3.4s ease-in-out infinite;
+      }
+      .circuit-node:nth-of-type(2) { animation-delay: 0.6s; }
+      .circuit-node:nth-of-type(3) { animation-delay: 1.2s; }
+      .circuit-node:nth-of-type(4) { animation-delay: 1.8s; }
+      .circuit-node:nth-of-type(5) { animation-delay: 2.4s; }
+      .scan-line {
+        animation: scan 5s linear infinite;
+        opacity: 0.12;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGradient)" />
+
+  <g stroke="url(#traceGradient)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.65">
+    <path d="M80 60 H320 V120 H520 V80 H780" />
+    <path d="M150 200 H340 V150 H640 V210 H960" />
+    <path d="M420 260 H520 V180 H720 V140 H1080" />
+    <path d="M960 60 H840 V110 H700 V150 H580" />
+  </g>
+
+  <g>
+    <circle class="circuit-node" cx="80" cy="60" r="10" fill="url(#nodeGlow)" />
+    <circle class="circuit-node" cx="340" cy="150" r="8" fill="url(#nodeGlow)" />
+    <circle class="circuit-node" cx="640" cy="210" r="9" fill="url(#nodeGlow)" />
+    <circle class="circuit-node" cx="900" cy="110" r="7" fill="url(#nodeGlow)" />
+    <circle class="circuit-node" cx="1080" cy="140" r="10" fill="url(#nodeGlow)" />
+  </g>
+
+  <g filter="url(#softGlow)">
+    <text class="header-text" x="600" y="140" text-anchor="middle">ABSTRACT DATA</text>
+    <text class="subline" x="600" y="188" text-anchor="middle">
+      <tspan x="600" dy="0">AI-POWERED CIVIC TECHNOLOGY</tspan>
+      <tspan x="600" dy="28">DATA QUALITY AT SCALE</tspan>
+      <tspan x="600" dy="28">MULTI-STATE READINESS</tspan>
+    </text>
+  </g>
+
+  <g class="scan-line">
+    <rect x="-1200" y="0" width="1200" height="300" fill="url(#traceGradient)" />
+  </g>
+</svg>

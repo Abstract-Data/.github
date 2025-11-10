@@ -1,0 +1,52 @@
+name: Generate Custom Badges
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * 1'
+  release:
+    types: [published, released]
+
+jobs:
+  build-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies (if package.json present)
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          else
+            echo "No package.json detected; skipping npm install."
+          fi
+
+      - name: Generate badge assets
+        run: |
+          if [ -f scripts/generate-badges.js ]; then
+            node scripts/generate-badges.js
+          else
+            echo "scripts/generate-badges.js not found; validating existing badge assets."
+            test -d assets/badges && ls -1 assets/badges
+          fi
+
+      - name: Commit badge updates
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "abstract-data-bot"
+            git config user.email "ops@abstractdata.io"
+            git add assets/badges
+            git commit -m "chore: refresh custom badge assets"
+            git push
+          else
+            echo "No badge updates detected."
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
