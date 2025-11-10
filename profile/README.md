@@ -3,20 +3,29 @@
   <img src="assets/abstract-data-logo.png" alt="Abstract Data official logo" width="360" />
 </div>
 
-![Data Flow Pulses](assets/data-rain-subtle.svg)
+<picture>
+  <source srcset="assets/data-rain-subtle.svg" type="image/svg+xml">
+  <img src="assets/mobile/data-rain-subtle-mobile.png" alt="Data flow pulses backdrop" width="100%" />
+</picture>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=E7AE59&background=00000000&center=true&vCenter=true&width=1000&lines=ABSTRACT+DATA;AI-Powered+Civic+Technology;Data+Quality+at+Scale;Enterprise+Voter+Engagement" alt="Abstract Data Typing Animation" />
 </p>
 
 <p align="center">
-  <img src="assets/metrics-dashboard.svg" alt="Live production metrics for Abstract Data" width="100%" />
+  <picture>
+    <source srcset="assets/metrics-dashboard.svg" type="image/svg+xml">
+    <img src="assets/mobile/metrics-dashboard-mobile.png" alt="Live production metrics for Abstract Data" width="100%" />
+  </picture>
 </p>
 
 ---
 
 <p align="center" style="margin-top: 40px;">
-  <img src="assets/headers/mission-statement-reveal.svg" alt="Mission Statement header with crypto text reveal animation" width="760" />
+  <picture>
+    <source srcset="assets/headers/mission-statement-reveal.svg" type="image/svg+xml">
+    <img src="assets/mobile/mission-statement-reveal-mobile.png" alt="Mission Statement header with crypto text reveal animation" width="760" />
+  </picture>
 </p>
 
 ---
@@ -25,25 +34,37 @@
 Abstract Data architects and operates a collection of enterprise civic-tech systems that fuse AI-driven voter engagement, national-scale data operations, and automated compliance. Across the portfolio we deliver measurable turnout lift, research-grade analytics, and principal-level engineering rigor for every jurisdiction we support.
 
 <p align="center">
-  <img src="assets/terminal-boot.svg" alt="Abstract Data system initialization sequence" width="80%" />
+  <picture>
+    <source srcset="assets/terminal-boot.svg" type="image/svg+xml">
+    <img src="assets/mobile/terminal-boot-mobile.png" alt="Abstract Data system initialization sequence" width="80%" />
+  </picture>
 </p>
 
 ---
 
 <p align="center" style="margin-top: 40px;">
-  <img src="assets/headers/portfolio-pillars-reveal.svg" alt="Portfolio Pillars header with crypto text reveal animation" width="760" />
+  <picture>
+    <source srcset="assets/headers/portfolio-pillars-reveal.svg" type="image/svg+xml">
+    <img src="assets/mobile/portfolio-pillars-reveal-mobile.png" alt="Portfolio Pillars header with crypto text reveal animation" width="760" />
+  </picture>
 </p>
 
 ---
 
 <p align="center">
-  <img src="assets/terminal-pillars.svg" alt="Animated terminal showing Abstract Data portfolio pillars" width="100%" />
+  <picture>
+    <source srcset="assets/terminal-pillars.svg" type="image/svg+xml">
+    <img src="assets/mobile/terminal-pillars-mobile.png" alt="Animated terminal showing Abstract Data portfolio pillars" width="100%" />
+  </picture>
 </p>
 
 ---
 
 <p align="center" style="margin-top: 40px;">
-  <img src="assets/headers/production-proof-reveal.svg" alt="Production Proof Points header with crypto text reveal animation" width="780" />
+  <picture>
+    <source srcset="assets/headers/production-proof-reveal.svg" type="image/svg+xml">
+    <img src="assets/mobile/production-proof-reveal-mobile.png" alt="Production Proof Points header with crypto text reveal animation" width="780" />
+  </picture>
 </p>
 
 ---
@@ -68,7 +89,10 @@ Abstract Data technology has been proven across multiple election cycles, states
 ---
 
 <p align="center" style="margin-top: 40px;">
-  <img src="assets/headers/technology-stack-reveal.svg" alt="Technology, Tools, and Stack header with crypto text reveal animation" width="820" />
+  <picture>
+    <source srcset="assets/headers/technology-stack-reveal.svg" type="image/svg+xml">
+    <img src="assets/mobile/technology-stack-reveal-mobile.png" alt="Technology, Tools, and Stack header with crypto text reveal animation" width="820" />
+  </picture>
 </p>
 
 ---
@@ -78,7 +102,10 @@ Abstract Data’s portfolio is unified by a common architecture that scales from
 ### Architecture Overview
 
 <p align="center">
-  <img src="assets/terminal-architecture.svg" alt="Animated terminal showing Abstract Data architecture layers" width="100%" />
+  <picture>
+    <source srcset="assets/terminal-architecture.svg" type="image/svg+xml">
+    <img src="assets/mobile/terminal-architecture-mobile.png" alt="Animated terminal showing Abstract Data architecture layers" width="100%" />
+  </picture>
 </p>
 
 ### Detailed Component Breakdown
@@ -123,7 +150,10 @@ Abstract Data’s portfolio is unified by a common architecture that scales from
 ---
 
 <p align="center" style="margin-top: 40px;">
-  <img src="assets/headers/metrics-outcomes-reveal.svg" alt="Metrics and Outcomes header with crypto text reveal animation" width="760" />
+  <picture>
+    <source srcset="assets/headers/metrics-outcomes-reveal.svg" type="image/svg+xml">
+    <img src="assets/mobile/metrics-outcomes-reveal-mobile.png" alt="Metrics and Outcomes header with crypto text reveal animation" width="760" />
+  </picture>
 </p>
 
 ---
@@ -137,21 +167,39 @@ Abstract Data’s portfolio is unified by a common architecture that scales from
 ---
 
 <p align="center" style="margin-top: 40px;">
-  <img src="assets/headers/achievement-reveal.svg" alt="Achievement Indicators header with crypto text reveal animation" width="780" />
+  <picture>
+    <source srcset="assets/headers/achievement-reveal.svg" type="image/svg+xml">
+    <img src="assets/mobile/achievement-reveal-mobile.png" alt="Achievement Indicators header with crypto text reveal animation" width="780" />
+  </picture>
 </p>
 
 ---
 <p align="center">
-  <img src="assets/badges/deployment-badge.svg" alt="500 plus production deployments badge" width="220" />
-  <img src="assets/badges/coverage-badge.svg" alt="Ninety five percent automated coverage badge" width="220" />
-  <img src="assets/badges/compliance-badge.svg" alt="Zero compliance violations badge" width="220" />
-  <img src="assets/badges/turnout-badge.svg" alt="Turnout improvement badge" width="220" />
+  <picture>
+    <source srcset="assets/badges/deployment-badge.svg" type="image/svg+xml">
+    <img src="assets/mobile/deployment-badge-mobile.png" alt="500 plus production deployments badge" width="220" />
+  </picture>
+  <picture>
+    <source srcset="assets/badges/coverage-badge.svg" type="image/svg+xml">
+    <img src="assets/mobile/coverage-badge-mobile.png" alt="Ninety five percent automated coverage badge" width="220" />
+  </picture>
+  <picture>
+    <source srcset="assets/badges/compliance-badge.svg" type="image/svg+xml">
+    <img src="assets/mobile/compliance-badge-mobile.png" alt="Zero compliance violations badge" width="220" />
+  </picture>
+  <picture>
+    <source srcset="assets/badges/turnout-badge.svg" type="image/svg+xml">
+    <img src="assets/mobile/turnout-badge-mobile.png" alt="Turnout improvement badge" width="220" />
+  </picture>
 </p>
 
 ---
 
 <p align="center" style="margin-top: 40px;">
-  <img src="assets/headers/market-leadership-reveal.svg" alt="Market Leadership and Portfolio Differentiators header with crypto text reveal animation" width="880" />
+  <picture>
+    <source srcset="assets/headers/market-leadership-reveal.svg" type="image/svg+xml">
+    <img src="assets/mobile/market-leadership-reveal-mobile.png" alt="Market Leadership and Portfolio Differentiators header with crypto text reveal animation" width="880" />
+  </picture>
 </p>
 
 ---
@@ -188,7 +236,10 @@ We do not compete on buzzwords—we compete on measurable civic outcomes. Abstra
 ### Velocity & Scale Snapshot
 
 <p align="center">
-  <img src="assets/terminal-velocity.svg" alt="Animated terminal showing Abstract Data velocity metrics" width="100%" />
+  <picture>
+    <source srcset="assets/terminal-velocity.svg" type="image/svg+xml">
+    <img src="assets/mobile/terminal-velocity-mobile.png" alt="Animated terminal showing Abstract Data velocity metrics" width="100%" />
+  </picture>
 </p>
 
 ### Why It Matters
@@ -204,8 +255,14 @@ We do not compete on buzzwords—we compete on measurable civic outcomes. Abstra
 
 Abstract Data is not another campaign technology vendor—it is a modern civic-tech portfolio combining infrastructure, automation, and engagement systems to deliver measurable change.
 
-![Divider](assets/particle-divider.svg)
+<picture>
+  <source srcset="assets/particle-divider.svg" type="image/svg+xml">
+  <img src="assets/mobile/particle-divider-mobile.png" alt="Divider" width="100%" />
+</picture>
 
 <p align="center">
-  <img src="assets/footer-status.svg" alt="Abstract Data live system status dashboard" width="100%" />
+  <picture>
+    <source srcset="assets/footer-status.svg" type="image/svg+xml">
+    <img src="assets/mobile/footer-status-mobile.png" alt="Abstract Data live system status dashboard" width="100%" />
+  </picture>
 </p>
