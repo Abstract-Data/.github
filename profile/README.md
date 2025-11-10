@@ -1,10 +1,10 @@
 <!-- Organization profile README rendered on https://github.com/abstract-data -->
 <div align="center">
-  <img src="assets/abstract-data-logo.png" alt="Abstract Data official logo" width="360" />
+  <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/abstract-data-logo.png" alt="Abstract Data official logo" width="360" />
 </div>
 
 <picture>
-  <source srcset="assets/data-rain-subtle.svg" type="image/svg+xml">
+  <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/data-rain-subtle.svg" type="image/svg+xml">
   <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/data-rain-subtle-mobile.png" alt="Data flow pulses backdrop" width="100%" />
 </picture>
 
@@ -14,7 +14,7 @@
 
 <p align="center">
   <picture>
-    <source srcset="assets/metrics-dashboard.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/metrics-dashboard.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/metrics-dashboard-mobile.png" alt="Live production metrics for Abstract Data" width="100%" />
   </picture>
 </p>
@@ -23,7 +23,7 @@
 
 <p align="center" style="margin-top: 40px;">
   <picture>
-    <source srcset="assets/headers/mission-statement-reveal.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/headers/mission-statement-reveal.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/mission-statement-reveal-mobile.png" alt="Mission Statement header with crypto text reveal animation" width="760" />
   </picture>
 </p>
@@ -35,7 +35,7 @@ Abstract Data architects and operates a collection of enterprise civic-tech syst
 
 <p align="center">
   <picture>
-    <source srcset="assets/terminal-boot.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/terminal-boot.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/terminal-boot-mobile.png" alt="Abstract Data system initialization sequence" width="80%" />
   </picture>
 </p>
@@ -44,7 +44,7 @@ Abstract Data architects and operates a collection of enterprise civic-tech syst
 
 <p align="center" style="margin-top: 40px;">
   <picture>
-    <source srcset="assets/headers/portfolio-pillars-reveal.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/headers/portfolio-pillars-reveal.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/portfolio-pillars-reveal-mobile.png" alt="Portfolio Pillars header with crypto text reveal animation" width="760" />
   </picture>
 </p>
@@ -53,7 +53,7 @@ Abstract Data architects and operates a collection of enterprise civic-tech syst
 
 <p align="center">
   <picture>
-    <source srcset="assets/terminal-pillars.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/terminal-pillars.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/terminal-pillars-mobile.png" alt="Animated terminal showing Abstract Data portfolio pillars" width="100%" />
   </picture>
 </p>
@@ -62,7 +62,7 @@ Abstract Data architects and operates a collection of enterprise civic-tech syst
 
 <p align="center" style="margin-top: 40px;">
   <picture>
-    <source srcset="assets/headers/production-proof-reveal.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/headers/production-proof-reveal.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/production-proof-reveal-mobile.png" alt="Production Proof Points header with crypto text reveal animation" width="780" />
   </picture>
 </p>
@@ -90,7 +90,7 @@ Abstract Data technology has been proven across multiple election cycles, states
 
 <p align="center" style="margin-top: 40px;">
   <picture>
-    <source srcset="assets/headers/technology-stack-reveal.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/headers/technology-stack-reveal.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/technology-stack-reveal-mobile.png" alt="Technology, Tools, and Stack header with crypto text reveal animation" width="820" />
   </picture>
 </p>
@@ -103,7 +103,7 @@ Abstract Data’s portfolio is unified by a common architecture that scales from
 
 <p align="center">
   <picture>
-    <source srcset="assets/terminal-architecture.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/terminal-architecture.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/terminal-architecture-mobile.png" alt="Animated terminal showing Abstract Data architecture layers" width="100%" />
   </picture>
 </p>
@@ -151,7 +151,7 @@ Abstract Data’s portfolio is unified by a common architecture that scales from
 
 <p align="center" style="margin-top: 40px;">
   <picture>
-    <source srcset="assets/headers/metrics-outcomes-reveal.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/headers/metrics-outcomes-reveal.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/metrics-outcomes-reveal-mobile.png" alt="Metrics and Outcomes header with crypto text reveal animation" width="760" />
   </picture>
 </p>
@@ -168,7 +168,7 @@ Abstract Data’s portfolio is unified by a common architecture that scales from
 
 <p align="center" style="margin-top: 40px;">
   <picture>
-    <source srcset="assets/headers/achievement-reveal.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/headers/achievement-reveal.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/achievement-reveal-mobile.png" alt="Achievement Indicators header with crypto text reveal animation" width="780" />
   </picture>
 </p>
@@ -176,19 +176,19 @@ Abstract Data’s portfolio is unified by a common architecture that scales from
 ---
 <p align="center">
   <picture>
-    <source srcset="assets/badges/deployment-badge.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/badges/deployment-badge.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/deployment-badge-mobile.png" alt="500 plus production deployments badge" width="220" />
   </picture>
   <picture>
-    <source srcset="assets/badges/coverage-badge.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/badges/coverage-badge.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/coverage-badge-mobile.png" alt="Ninety five percent automated coverage badge" width="220" />
   </picture>
   <picture>
-    <source srcset="assets/badges/compliance-badge.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/badges/compliance-badge.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/compliance-badge-mobile.png" alt="Zero compliance violations badge" width="220" />
   </picture>
   <picture>
-    <source srcset="assets/badges/turnout-badge.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/badges/turnout-badge.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/turnout-badge-mobile.png" alt="Turnout improvement badge" width="220" />
   </picture>
 </p>
@@ -197,7 +197,7 @@ Abstract Data’s portfolio is unified by a common architecture that scales from
 
 <p align="center" style="margin-top: 40px;">
   <picture>
-    <source srcset="assets/headers/market-leadership-reveal.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/headers/market-leadership-reveal.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/market-leadership-reveal-mobile.png" alt="Market Leadership and Portfolio Differentiators header with crypto text reveal animation" width="880" />
   </picture>
 </p>
@@ -237,7 +237,7 @@ We do not compete on buzzwords—we compete on measurable civic outcomes. Abstra
 
 <p align="center">
   <picture>
-    <source srcset="assets/terminal-velocity.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/terminal-velocity.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/terminal-velocity-mobile.png" alt="Animated terminal showing Abstract Data velocity metrics" width="100%" />
   </picture>
 </p>
@@ -256,13 +256,13 @@ We do not compete on buzzwords—we compete on measurable civic outcomes. Abstra
 Abstract Data is not another campaign technology vendor—it is a modern civic-tech portfolio combining infrastructure, automation, and engagement systems to deliver measurable change.
 
 <picture>
-  <source srcset="assets/particle-divider.svg" type="image/svg+xml">
+  <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/particle-divider.svg" type="image/svg+xml">
   <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/particle-divider-mobile.png" alt="Divider" width="100%" />
 </picture>
 
 <p align="center">
   <picture>
-    <source srcset="assets/footer-status.svg" type="image/svg+xml">
+    <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/footer-status.svg" type="image/svg+xml">
     <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/footer-status-mobile.png" alt="Abstract Data live system status dashboard" width="100%" />
   </picture>
 </p>
