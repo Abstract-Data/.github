@@ -16,11 +16,7 @@
     </filter>
     <style>
       .frame-line {
-        stroke: url(#frame-gradient);
-        stroke-width: 1.5;
-        stroke-linecap: round;
-        stroke-dasharray: 18 12;
-        opacity: 0.6;
+        display: none;
       }
 
       text {
@@ -55,9 +51,6 @@
     </style>
   </defs>
 
-  <line class="frame-line" x1="60" y1="18" x2="760" y2="18" />
-  <line class="frame-line" x1="60" y1="102" x2="760" y2="102" />
-
   <text x="410" y="70">M3TR!CS &amp; 0UTC0MES
     <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.08;0.18" dur="2.2s" fill="freeze" />
   </text>
@@ -70,7 +63,7 @@
   <text class="final" x="410" y="70">METRICS &amp; OUTCOMES
     <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.78;1" dur="2.2s" fill="freeze" />
   </text>
-  <path class="heartbeat" d="M70 122 h44 l12 -30 l18 54 l16 -24 h36 l15 -20 l18 44 h46 l14 -18 l18 34 h54 l16 -38 l22 60 l16 -26 h48 l16 -24 l20 40 h66" >
+  <path class="heartbeat" d="M70 122 L120 122 L135 92 L150 152 L170 122 L200 122 L220 102 L240 122 L270 122 L290 90 L310 154 L330 122 L360 122 L380 100 L400 122 L430 122 L450 102 L470 122 L500 122 L530 92 L560 152 L590 122 L650 122" >
     <animate attributeName="stroke-dashoffset" values="0;640" dur="2.5s" repeatCount="indefinite" />
   </path>
 </svg>

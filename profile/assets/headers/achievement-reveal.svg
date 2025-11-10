@@ -71,7 +71,7 @@
   <text class="final" x="430" y="70">ACHIEVEMENT INDICATORS
     <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.8;1" dur="2.4s" fill="freeze" />
   </text>
-  <path class="heartbeat" d="M80 134 h48 l12 32 l20 -58 l16 26 h38 l16 22 l20 -48 h52 l14 20 l20 -36 h60 l18 40 l24 -64 l16 26 h52 l18 26 l20 -42 h70" >
+  <path class="heartbeat" d="M80 134 L130 134 L146 164 L162 104 L182 134 L212 134 L232 154 L252 134 L284 134 L304 166 L324 104 L344 134 L376 134 L398 156 L420 134 L452 134 L474 156 L496 134 L528 134 L550 164 L574 104 L604 134 L664 134" >
     <animate attributeName="stroke-dashoffset" values="0;700" dur="2.6s" repeatCount="indefinite" />
   </path>
 </svg>

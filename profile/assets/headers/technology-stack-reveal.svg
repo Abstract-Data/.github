@@ -70,7 +70,7 @@
   <text class="final" x="450" y="70">TECHNOLOGY, TOOLS, AND STACK
     <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.82;1" dur="2.6s" fill="freeze" />
   </text>
-  <path class="heartbeat" d="M80 124 h48 l12 30 l18 -56 l16 24 h38 l16 20 l18 -42 h52 l14 18 l20 -34 h56 l16 38 l22 -60 l16 26 h50 l18 24 l20 -40 h70" >
+  <path class="heartbeat" d="M80 124 L130 124 L144 154 L160 94 L180 124 L210 124 L230 144 L250 124 L280 124 L300 156 L320 92 L340 124 L370 124 L392 146 L414 124 L444 124 L464 144 L484 124 L514 124 L534 154 L556 94 L586 124 L646 124" >
     <animate attributeName="stroke-dashoffset" values="0;680" dur="2.6s" repeatCount="indefinite" />
   </path>
 </svg>

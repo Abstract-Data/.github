@@ -61,7 +61,7 @@
     <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.76;1" dur="2.4s" fill="freeze" />
   </text>
 
-  <path class="heartbeat" d="M80 128 h52 l14 -32 l20 58 l16 -24 h40 l16 -22 l20 46 h54 l14 -20 l20 36 h58 l18 -40 l24 62 l16 -26 h52 l18 -26 l22 40 h72" >
+  <path class="heartbeat" d="M80 128 L130 128 L145 98 L160 158 L180 128 L210 128 L230 108 L250 128 L280 128 L300 96 L320 160 L340 128 L370 128 L390 106 L410 128 L440 128 L460 108 L480 128 L510 128 L540 98 L570 158 L600 128 L660 128" >
     <animate attributeName="stroke-dashoffset" values="0;720" dur="2.7s" repeatCount="indefinite" />
   </path>
 </svg>
