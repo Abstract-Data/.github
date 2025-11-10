@@ -1,4 +1,4 @@
-<svg width="860" height="160" viewBox="0 0 860 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Achievement Indicators header reveal</title>
   <desc id="desc">Animated crypto text reveal for the Achievement Indicators section headline.</desc>
   <defs>
@@ -71,7 +71,7 @@
   <text class="final" x="430" y="70">ACHIEVEMENT INDICATORS
     <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.8;1" dur="2.4s" fill="freeze" />
   </text>
-  <path class="heartbeat" d="M80 134 L130 134 L146 164 L162 104 L182 134 L212 134 L232 154 L252 134 L284 134 L304 166 L324 104 L344 134 L376 134 L398 156 L420 134 L452 134 L474 156 L496 134 L528 134 L550 164 L574 104 L604 134 L664 134" >
+  <path class="heartbeat" d="M80 174 L130 174 L146 204 L162 144 L182 174 L212 174 L232 194 L252 174 L284 174 L304 206 L324 144 L344 174 L376 174 L398 196 L420 174 L452 174 L474 196 L496 174 L528 174 L550 204 L574 144 L604 174 L664 174" >
     <animate attributeName="stroke-dashoffset" values="0;700" dur="2.6s" repeatCount="indefinite" />
   </path>
 </svg>

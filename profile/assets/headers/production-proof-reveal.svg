@@ -1,4 +1,4 @@
-<svg width="860" height="160" viewBox="0 0 860 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Production Proof Points header reveal</title>
   <desc id="desc">Animated crypto text reveal for the Production Proof Points section headline.</desc>
   <defs>
@@ -61,7 +61,7 @@
     <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.76;1" dur="2.4s" fill="freeze" />
   </text>
 
-  <path class="heartbeat" d="M80 128 L130 128 L145 98 L160 158 L180 128 L210 128 L230 108 L250 128 L280 128 L300 96 L320 160 L340 128 L370 128 L390 106 L410 128 L440 128 L460 108 L480 128 L510 128 L540 98 L570 158 L600 128 L660 128" >
+  <path class="heartbeat" d="M80 168 L130 168 L145 138 L160 198 L180 168 L210 168 L230 148 L250 168 L280 168 L300 136 L320 200 L340 168 L370 168 L390 146 L410 168 L440 168 L460 148 L480 168 L510 168 L540 138 L570 198 L600 168 L660 168" >
     <animate attributeName="stroke-dashoffset" values="0;720" dur="2.7s" repeatCount="indefinite" />
   </path>
 </svg>
