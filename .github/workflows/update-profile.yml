@@ -31,7 +31,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Validate organization markdown
-        run: npx --yes markdownlint-cli2 profile/README.md
+        run: npx --yes markdownlint-cli2 --config .markdownlint.json profile/README.md
 
       - name: Verify asset references
         run: |
