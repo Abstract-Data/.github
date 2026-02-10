@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-09T10:09:59.675Z",
+  "generatedAt": "2026-02-10T10:05:23.146Z",
   "systems": [
     {
       "name": "Quantum Core Labs",
@@ -18,11 +18,11 @@
     "members": 0,
     "totalStars": 0,
     "totalForks": 1,
-    "latestCommit": "2026-02-08T09:38:46Z",
-    "latestRepository": ".github"
+    "latestCommit": "2026-02-09T22:19:44Z",
+    "latestRepository": "campaignfinance-2023"
   },
   "sources": {
     "github": "https://github.com/abstract-data",
-    "latestRepository": "https://github.com/Abstract-Data/.github"
+    "latestRepository": "https://github.com/Abstract-Data/campaignfinance-2023"
   }
 }
