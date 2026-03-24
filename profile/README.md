@@ -93,18 +93,22 @@ Abstract Data designs and delivers enterprise-grade software across custom devel
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-React?style=flat&logo=react&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="React badge" />
-  <img src="https://img.shields.io/badge/Next%2Ejs-Next%2Ejs?style=flat&logo=nextdotjs&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Next.js badge" />
+  <img src="https://img.shields.io/static/v1?message=Next.js&label=&style=flat&logo=nextdotjs&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Next.js badge" />
   <img src="https://img.shields.io/badge/TypeScript-TypeScript?style=flat&logo=typescript&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="TypeScript badge" />
   <img src="https://img.shields.io/badge/Python-Python?style=flat&logo=python&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Python badge" />
   <img src="https://img.shields.io/badge/Swift-Swift?style=flat&logo=swift&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Swift badge" />
+  <img src="https://img.shields.io/badge/Pydantic-Pydantic?style=flat&logo=pydantic&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Pydantic badge" />
   <img src="https://img.shields.io/badge/PyTorch-PyTorch?style=flat&logo=pytorch&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="PyTorch badge" />
   <img src="https://img.shields.io/badge/PostgreSQL-PostgreSQL?style=flat&logo=postgresql&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="PostgreSQL badge" />
 </p>
 <p align="center">
+  <img src="https://img.shields.io/badge/Supabase-Supabase?style=flat&logo=supabase&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Supabase badge" />
+  <img src="https://img.shields.io/badge/Neon-Neon?style=flat&logo=neon&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Neon badge" />
   <img src="https://img.shields.io/badge/Snowflake-Snowflake?style=flat&logo=snowflake&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Snowflake badge" />
   <img src="https://img.shields.io/badge/Redis-Redis?style=flat&logo=redis&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Redis badge" />
-  <img src="https://img.shields.io/badge/OpenTelemetry-OpenTelemetry?style=flat&logo=opentelemetry&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="OpenTelemetry badge" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-GitHub%20Actions?style=flat&logo=githubactions&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="GitHub Actions badge" />
+  <img src="https://img.shields.io/badge/Terraform-Terraform?style=flat&logo=terraform&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Terraform badge" />
+  <img src="https://img.shields.io/badge/1Password-1Password?style=flat&logo=1password&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="1Password badge" />
+  <img src="https://img.shields.io/badge/Vercel-Vercel?style=flat&logo=vercel&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Vercel badge" />
   <img src="https://img.shields.io/badge/Cloudflare-Cloudflare?style=flat&logo=cloudflare&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Cloudflare badge" />
   <img src="https://img.shields.io/badge/AWS-AWS?style=flat&logo=amazonaws&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="AWS badge" />
 </p>
