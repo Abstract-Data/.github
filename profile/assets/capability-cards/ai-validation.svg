@@ -14,12 +14,12 @@
       }
 
       @keyframes text-glow {
-        0%, 100% { filter: drop-shadow(0 0 4px #E7AE59); }
-        50% { filter: drop-shadow(0 0 8px #AC2D21); }
+        0%, 100% { filter: drop-shadow(0 0 4px #00D9FF); }
+        50% { filter: drop-shadow(0 0 8px #E7AE59); }
       }
 
       .hex-border {
-        stroke: #E7AE59;
+        stroke: #00D9FF;
         animation: hex-pulse 4s ease-in-out infinite;
       }
 
@@ -49,7 +49,7 @@
         }
 
         .capability-text {
-          fill: #AC2D21;
+          fill: #E7AE59;
         }
       }
     </style>
@@ -58,11 +58,11 @@
   <rect x="10" y="10" width="280" height="100" rx="16" class="hex-border" />
 
   <g transform="translate(50, 45)">
-    <circle cx="0" cy="0" r="22" fill="#E7AE59" opacity="0.15" />
-    <circle cx="0" cy="0" r="16" fill="none" stroke="#AC2D21" stroke-width="2" stroke-dasharray="6 4">
+    <circle cx="0" cy="0" r="22" fill="#00D9FF" opacity="0.15" />
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#E7AE59" stroke-width="2" stroke-dasharray="6 4">
       <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="10s" repeatCount="indefinite" />
     </circle>
-    <circle cx="0" cy="0" r="10" fill="none" stroke="#E7AE59" stroke-width="1" stroke-dasharray="4 2" />
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#00D9FF" stroke-width="1" stroke-dasharray="4 2" />
     <line x1="0" y1="0" x2="0" y2="-14" stroke="#FFFFFF" stroke-width="2">
       <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="6s" repeatCount="indefinite" />
     </line>

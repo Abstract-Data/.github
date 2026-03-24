@@ -14,7 +14,7 @@
         font-family: 'Fira Code', monospace;
         font-size: 12px;
         opacity: 0;
-        fill: #E7AE59;
+        fill: #00D9FF;
       }
 
       .background {
@@ -23,7 +23,7 @@
 
       @media (prefers-color-scheme: light) {
         .data-char {
-          fill: #AC2D21;
+          fill: #E7AE59;
         }
       }
     </style>

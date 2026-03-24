@@ -40,7 +40,7 @@
         font-family: 'Fira Code', monospace;
         font-size: 16px;
         opacity: 0;
-        fill: #E7AE59;
+        fill: #00D9FF;
         dominant-baseline: hanging;
         text-anchor: start;
       }
@@ -49,7 +49,7 @@
         font-family: 'Fira Code', monospace;
         font-size: 16px;
         animation: blink 1s step-end infinite;
-        fill: #E7AE59;
+        fill: #00D9FF;
       }
 
       .scanline {
@@ -63,14 +63,14 @@
 
       @media (prefers-color-scheme: dark) {
         .terminal {
-          stroke: #E7AE59;
+          stroke: #00D9FF;
         }
 
-        .header-bar { fill: rgba(172, 45, 33, 0.35); }
+        .header-bar { fill: rgba(231, 174, 89, 0.25); }
 
-        .text-line { fill: #E7AE59; }
-        .cursor { fill: #E7AE59; }
-        .header-title { fill: #FFE6C7; }
+        .text-line { fill: #00D9FF; }
+        .cursor { fill: #00D9FF; }
+        .header-title { fill: #B3F0FF; }
 
         .scanline {
           fill: url(#scan-gradient-dark);
@@ -79,14 +79,14 @@
 
       @media (prefers-color-scheme: light) {
         .terminal {
-          stroke: #C44632;
+          stroke: #0099B3;
         }
 
-        .header-bar { fill: rgba(245, 192, 137, 0.4); }
+        .header-bar { fill: rgba(0, 217, 255, 0.15); }
 
-        .text-line { fill: #C44632; }
-        .cursor { fill: #C44632; }
-        .header-title { fill: #5C2016; }
+        .text-line { fill: #0099B3; }
+        .cursor { fill: #0099B3; }
+        .header-title { fill: #065A6E; }
 
         .scanline {
           fill: url(#scan-gradient-light);
@@ -95,15 +95,15 @@
     </style>
 
     <linearGradient id="scan-gradient-dark" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#E7AE59" stop-opacity="0" />
-      <stop offset="50%" stop-color="#E7AE59" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#E7AE59" stop-opacity="0" />
+      <stop offset="0%" stop-color="#00D9FF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00D9FF" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#00D9FF" stop-opacity="0" />
     </linearGradient>
 
     <linearGradient id="scan-gradient-light" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#C44632" stop-opacity="0" />
-      <stop offset="50%" stop-color="#C44632" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#C44632" stop-opacity="0" />
+      <stop offset="0%" stop-color="#0099B3" stop-opacity="0" />
+      <stop offset="50%" stop-color="#0099B3" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#0099B3" stop-opacity="0" />
     </linearGradient>
   </defs>
 

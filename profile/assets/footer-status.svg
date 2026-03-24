@@ -37,17 +37,17 @@
         }
 
         .headline {
-          fill: #E7AE59;
+          fill: #00D9FF;
         }
       }
 
       @media (prefers-color-scheme: light) {
         text {
-          fill: #AC2D21;
+          fill: #E7AE59;
         }
 
         .headline {
-          fill: #C44632;
+          fill: #0099B3;
         }
       }
     </style>
@@ -59,9 +59,9 @@
   <circle class="status-indicator" cx="100" cy="70" r="10" />
   <text x="120" y="75" font-size="14">All systems operational</text>
 
-  <text x="100" y="105" font-size="14" fill="#E7AE59">Uptime: 99.95%</text>
-  <rect x="100" y="115" width="420" height="12" rx="6" fill="none" stroke="#E7AE59" stroke-width="1" />
-  <rect class="uptime-bar" x="100" y="115" width="0" height="12" rx="6" fill="#E7AE59" />
+  <text x="100" y="105" font-size="14" fill="#00D9FF">Uptime: 99.95%</text>
+  <rect x="100" y="115" width="420" height="12" rx="6" fill="none" stroke="#00D9FF" stroke-width="1" />
+  <rect class="uptime-bar" x="100" y="115" width="0" height="12" rx="6" fill="#00D9FF" />
 
   <text x="600" y="75" font-size="14">Last deployment: 2 hours ago</text>
   <text x="600" y="105" font-size="14">Platform version: v2.4.1</text>

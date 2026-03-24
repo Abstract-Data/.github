@@ -3,9 +3,9 @@
   <desc id="desc">Animated crypto text reveal for the Technology, Tools, and Stack section headline.</desc>
   <defs>
     <linearGradient id="frame-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#AC2D21" />
-      <stop offset="50%" stop-color="#E7AE59" />
-      <stop offset="100%" stop-color="#AC2D21" />
+      <stop offset="0%" stop-color="#E7AE59" />
+      <stop offset="50%" stop-color="#00D9FF" />
+      <stop offset="100%" stop-color="#E7AE59" />
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="4" result="blur" />
@@ -24,7 +24,7 @@
       }
 
       text {
-        font-family: 'Fira Code', monospace;
+        font-family: 'Orbitron', sans-serif;
         font-size: 38px;
         font-weight: 600;
         letter-spacing: 6px;
@@ -36,11 +36,11 @@
       .final { filter: url(#glow); }
 
       @media (prefers-color-scheme: dark) {
-        text { fill: #E7AE59; }
+        text { fill: #00D9FF; }
       }
 
       @media (prefers-color-scheme: light) {
-        text { fill: #AC2D21; }
+        text { fill: #E7AE59; }
       }
       .heartbeat {
         fill: none;

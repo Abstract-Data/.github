@@ -20,18 +20,18 @@
 
       text {
         font-family: 'Fira Code', monospace;
-        fill: #E7AE59;
+        fill: #00D9FF;
         font-size: 12px;
       }
 
       .radar-axis {
-        stroke: #E7AE59;
+        stroke: #00D9FF;
         stroke-width: 1;
         opacity: 0.3;
       }
 
       .radar-ring {
-        stroke: #AC2D21;
+        stroke: #E7AE59;
         stroke-width: 1;
         fill: none;
         opacity: 0.2;
@@ -50,16 +50,16 @@
       }
 
       .abstract-polygon {
-        fill: #AC2D21;
+        fill: #E7AE59;
         opacity: 0.4;
-        stroke: #E7AE59;
+        stroke: #00D9FF;
         stroke-width: 2;
         animation: polygon-expand 2s ease-out forwards;
         transform-origin: 300px 300px;
       }
 
       .data-point {
-        fill: #E7AE59;
+        fill: #00D9FF;
         animation: data-point-pulse 2.2s ease-in-out infinite;
       }
 
@@ -74,12 +74,12 @@
       }
 
       .legend-swatch {
-        stroke: #E7AE59;
+        stroke: #00D9FF;
         stroke-width: 1;
       }
 
       .legend-abstract {
-        fill: #AC2D21;
+        fill: #E7AE59;
         opacity: 0.5;
       }
 
@@ -95,7 +95,7 @@
     </style>
   </defs>
 
-  <rect width="600" height="600" fill="#0A0E27" rx="24" />
+  <rect width="600" height="600" fill="#0A0A0A" rx="24" />
 
   <g transform="translate(0, 0)">
     <circle class="radar-ring" cx="300" cy="300" r="55" />
@@ -138,7 +138,7 @@
     <circle class="data-point" cx="88.8" cy="300" r="4" />
     <circle class="data-point" cx="144.4" cy="144.4" r="4" />
 
-    <path class="radar-scan" d="M300,300 L300,60 A240,240 0 0 1 480,140 Z" fill="#E7AE59" />
+    <path class="radar-scan" d="M300,300 L300,60 A240,240 0 0 1 480,140 Z" fill="#00D9FF" />
 
     <g class="legend" transform="translate(380, 60)">
       <rect class="legend-swatch legend-abstract" x="0" y="0" width="20" height="12" rx="2" />

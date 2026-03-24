@@ -3,14 +3,14 @@
   <desc id="desc">Animated terminal-style loading sequence describing Abstract Data system initialization.</desc>
   <defs>
     <style>
-      @keyframes typing {
-        0% { width: 0; }
-        100% { width: 100%; }
-      }
-
       @keyframes blink {
         0%, 50% { opacity: 1; }
         51%, 100% { opacity: 0; }
+      }
+
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
       }
 
       .terminal-bg {
@@ -24,35 +24,36 @@
       .terminal-text {
         font-family: 'Fira Code', monospace;
         font-size: 16px;
-        margin: 0;
+        opacity: 0;
       }
 
       .cursor {
+        font-family: 'Fira Code', monospace;
+        font-size: 16px;
         animation: blink 1s step-end infinite;
       }
-
-      .line {
-        overflow: hidden;
-        white-space: nowrap;
-      }
-
-      .line-1 { animation: typing 1.2s steps(40) 0s forwards; }
-      .line-2 { animation: typing 1.2s steps(40) 1.6s forwards; }
-      .line-3 { animation: typing 1.2s steps(40) 3.2s forwards; }
-      .line-4 { animation: typing 1.2s steps(40) 4.8s forwards; }
 
       .terminal-header {
         font-family: 'Fira Code', monospace;
       }
 
+      .line-1 { animation: fadeIn 0.8s ease forwards 0.3s; }
+      .line-2 { animation: fadeIn 0.8s ease forwards 1.5s; }
+      .line-3 { animation: fadeIn 0.8s ease forwards 2.7s; }
+      .line-4 { animation: fadeIn 0.8s ease forwards 3.9s; }
+
       @media (prefers-color-scheme: dark) {
         .terminal-bg {
           fill: none;
-          stroke: #E7AE59;
+          stroke: #00D9FF;
         }
 
         .terminal-text {
-          color: #E7AE59;
+          fill: #00D9FF;
+        }
+
+        .cursor {
+          fill: #00D9FF;
         }
 
         .terminal-header {
@@ -63,15 +64,19 @@
       @media (prefers-color-scheme: light) {
         .terminal-bg {
           fill: none;
-          stroke: #C44632;
+          stroke: #0099B3;
         }
 
         .terminal-text {
-          color: #C44632;
+          fill: #0099B3;
+        }
+
+        .cursor {
+          fill: #0099B3;
         }
 
         .terminal-header {
-          fill: #3B1D11;
+          fill: #065A6E;
         }
       }
     </style>
@@ -81,14 +86,11 @@
   <rect class="terminal-bar" x="0" y="0" width="800" height="32" rx="12 12 0 0" />
   <text class="terminal-header" x="20" y="22" font-family="'Fira Code', monospace" font-size="14">abstract-data@civic-tech:~$</text>
 
-  <foreignObject x="30" y="60" width="740" height="300">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; flex-direction: column; gap: 12px;">
-      <p class="terminal-text line line-1" style="width: 0;">$ INITIALIZING ABSTRACT DATA SYSTEMS...</p>
-      <p class="terminal-text line line-2" style="width: 0;">✓ Data infrastructure services......... [READY]</p>
-      <p class="terminal-text line line-3" style="width: 0;">✓ Compliance automation modules....... [ACTIVE]</p>
-      <p class="terminal-text line line-4" style="width: 0;">✓ AI quality + validation pipelines... [ONLINE]</p>
-      <p class="terminal-text"><span class="cursor">█</span></p>
-    </div>
-  </foreignObject>
+  <g transform="translate(30, 70)">
+    <text class="terminal-text line-1" y="0">$ INITIALIZING ABSTRACT DATA SYSTEMS...</text>
+    <text class="terminal-text line-2" y="40">✓ Data infrastructure services......... [READY]</text>
+    <text class="terminal-text line-3" y="80">✓ Compliance automation modules....... [ACTIVE]</text>
+    <text class="terminal-text line-4" y="120">✓ AI quality + validation pipelines... [ONLINE]</text>
+    <text class="cursor" y="170">▮</text>
+  </g>
 </svg>
-

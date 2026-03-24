@@ -3,15 +3,15 @@
   <desc id="desc">Animated header featuring the Abstract Data logo with neural path animations and glowing circuitry.</desc>
   <defs>
     <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0A0E27" />
-      <stop offset="50%" stop-color="#11183C" />
-      <stop offset="100%" stop-color="#0A0E27" />
+      <stop offset="0%" stop-color="#0A0A0A" />
+      <stop offset="50%" stop-color="#141414" />
+      <stop offset="100%" stop-color="#0A0A0A" />
     </linearGradient>
 
     <linearGradient id="pulse-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#AC2D21" />
-      <stop offset="50%" stop-color="#E7AE59" />
-      <stop offset="100%" stop-color="#AC2D21" />
+      <stop offset="0%" stop-color="#E7AE59" />
+      <stop offset="50%" stop-color="#00D9FF" />
+      <stop offset="100%" stop-color="#E7AE59" />
     </linearGradient>
 
     <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
@@ -71,13 +71,13 @@
       }
 
       .node {
-        fill: #E7AE59;
+        fill: #00D9FF;
         filter: url(#soft-glow);
         animation: nodePulse 3.2s ease-in-out infinite;
       }
 
       .node--alt {
-        fill: #AC2D21;
+        fill: #E7AE59;
         animation-duration: 2.8s;
       }
 
@@ -108,33 +108,33 @@
         }
 
         .node {
-          fill: #E7AE59;
+          fill: #00D9FF;
         }
 
         .node--alt {
-          fill: #AC2D21;
+          fill: #E7AE59;
         }
 
         .subtitle {
-          fill: #E7AE59;
+          fill: #00D9FF;
         }
       }
 
       @media (prefers-color-scheme: light) {
         .path {
-          stroke: #C44632;
+          stroke: #0099B3;
         }
 
         .node {
-          fill: #C44632;
+          fill: #0099B3;
         }
 
         .node--alt {
-          fill: #E7AE59;
+          fill: #00D9FF;
         }
 
         .subtitle {
-          fill: #C44632;
+          fill: #0099B3;
         }
       }
     </style>

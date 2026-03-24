@@ -14,17 +14,17 @@
       }
 
       @keyframes text-glow {
-        0%, 100% { filter: drop-shadow(0 0 4px #E7AE59); }
-        50% { filter: drop-shadow(0 0 8px #AC2D21); }
+        0%, 100% { filter: drop-shadow(0 0 4px #00D9FF); }
+        50% { filter: drop-shadow(0 0 8px #E7AE59); }
       }
 
       .hex-border {
-        stroke: #E7AE59;
+        stroke: #00D9FF;
         animation: hex-pulse 4s ease-in-out infinite;
       }
 
       .capability-surface {
-        fill: #11183C;
+        fill: #141414;
       }
 
       .capability-icon {
@@ -62,7 +62,7 @@
         }
 
         .capability-text {
-          fill: #AC2D21;
+          fill: #E7AE59;
         }
 
         .capability-surface {
@@ -75,9 +75,9 @@
   <rect x="10" y="10" width="280" height="100" rx="16" class="hex-border" />
 
   <g class="capability-icon" transform="translate(40, 45)">
-    <rect x="-18" y="-18" width="36" height="36" rx="6" fill="#E7AE59" opacity="0.15" />
-    <rect x="-10" y="-12" width="20" height="12" rx="3" fill="#E7AE59" opacity="0.5" />
-    <rect x="-14" y="4" width="28" height="10" rx="3" fill="#AC2D21" opacity="0.8" />
+    <rect x="-18" y="-18" width="36" height="36" rx="6" fill="#00D9FF" opacity="0.15" />
+    <rect x="-10" y="-12" width="20" height="12" rx="3" fill="#00D9FF" opacity="0.5" />
+    <rect x="-14" y="4" width="28" height="10" rx="3" fill="#E7AE59" opacity="0.8" />
     <circle cx="0" cy="0" r="3" fill="#FFFFFF" />
   </g>
 

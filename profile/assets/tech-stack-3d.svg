@@ -32,46 +32,46 @@
 
       .data-packet {
         animation: data-flow-down 3.4s ease-in-out infinite;
-        fill: #E7AE59;
+        fill: #00D9FF;
       }
     </style>
 
     <linearGradient id="layer-gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#E7AE59" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#AC2D21" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#00D9FF" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#E7AE59" stop-opacity="0.4" />
     </linearGradient>
 
     <linearGradient id="layer-red" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#AC2D21" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#E7AE59" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#E7AE59" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#00D9FF" stop-opacity="0.4" />
     </linearGradient>
   </defs>
 
-  <rect width="1000" height="600" fill="#0A0E27" rx="24" />
+  <rect width="1000" height="600" fill="#0A0A0A" rx="24" />
 
   <g transform="translate(100, 80)">
     <g class="layer layer-1">
-      <polygon points="0,360 420,300 820,360 400,420" fill="url(#layer-gold)" stroke="#E7AE59" stroke-width="2" />
+      <polygon points="0,360 420,300 820,360 400,420" fill="url(#layer-gold)" stroke="#00D9FF" stroke-width="2" />
       <text x="400" y="410" text-anchor="middle">Vercel · Docker · GitHub Actions</text>
     </g>
 
     <g class="layer layer-2">
-      <polygon points="60,280 420,230 780,280 420,330" fill="url(#layer-red)" stroke="#AC2D21" stroke-width="2" />
+      <polygon points="60,280 420,230 780,280 420,330" fill="url(#layer-red)" stroke="#E7AE59" stroke-width="2" />
       <text x="420" y="310" text-anchor="middle">Supabase · PostgreSQL</text>
     </g>
 
     <g class="layer layer-3">
-      <polygon points="110,210 420,170 730,210 420,260" fill="url(#layer-gold)" stroke="#E7AE59" stroke-width="2" />
+      <polygon points="110,210 420,170 730,210 420,260" fill="url(#layer-gold)" stroke="#00D9FF" stroke-width="2" />
       <text x="420" y="240" text-anchor="middle">PydanticAI · Claude · Proprietary Models</text>
     </g>
 
     <g class="layer layer-4">
-      <polygon points="160,150 420,120 680,150 420,190" fill="url(#layer-red)" stroke="#AC2D21" stroke-width="2" />
+      <polygon points="160,150 420,120 680,150 420,190" fill="url(#layer-red)" stroke="#E7AE59" stroke-width="2" />
       <text x="420" y="185" text-anchor="middle">FastAPI · SQLModel · Type-Safe APIs</text>
     </g>
 
     <g class="layer layer-5">
-      <polygon points="210,100 420,70 630,100 420,140" fill="url(#layer-gold)" stroke="#E7AE59" stroke-width="2" />
+      <polygon points="210,100 420,70 630,100 420,140" fill="url(#layer-gold)" stroke="#00D9FF" stroke-width="2" />
       <text x="420" y="135" text-anchor="middle">Next.js · TypeScript · UI/UX Telemetry</text>
     </g>
 

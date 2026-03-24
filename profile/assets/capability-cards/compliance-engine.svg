@@ -14,12 +14,12 @@
       }
 
       @keyframes text-glow {
-        0%, 100% { filter: drop-shadow(0 0 4px #AC2D21); }
-        50% { filter: drop-shadow(0 0 8px #E7AE59); }
+        0%, 100% { filter: drop-shadow(0 0 4px #E7AE59); }
+        50% { filter: drop-shadow(0 0 8px #00D9FF); }
       }
 
       .hex-border {
-        stroke: #AC2D21;
+        stroke: #E7AE59;
         animation: hex-pulse 4s ease-in-out infinite;
       }
 
@@ -49,7 +49,7 @@
         }
 
         .capability-text {
-          fill: #AC2D21;
+          fill: #E7AE59;
         }
       }
     </style>
@@ -58,13 +58,13 @@
   <rect x="10" y="10" width="280" height="100" rx="16" class="hex-border" />
 
   <g transform="translate(50, 45)">
-    <rect x="-22" y="-22" width="44" height="44" rx="10" fill="#AC2D21" opacity="0.25" />
-    <rect x="-16" y="-12" width="32" height="24" rx="6" fill="#E7AE59" opacity="0.2" />
-    <path d="M-10 0 L0 -10 L10 0 L0 10 Z" fill="#E7AE59" opacity="0.6" />
+    <rect x="-22" y="-22" width="44" height="44" rx="10" fill="#E7AE59" opacity="0.25" />
+    <rect x="-16" y="-12" width="32" height="24" rx="6" fill="#00D9FF" opacity="0.2" />
+    <path d="M-10 0 L0 -10 L10 0 L0 10 Z" fill="#00D9FF" opacity="0.6" />
     <circle cx="0" cy="0" r="5" fill="#FFFFFF">
       <animate attributeName="r" values="5;8;5" dur="3s" repeatCount="indefinite" />
     </circle>
-    <circle cx="0" cy="0" r="14" fill="#E7AE59" opacity="0.15">
+    <circle cx="0" cy="0" r="14" fill="#00D9FF" opacity="0.15">
       <animate attributeName="opacity" values="0.1;0.6;0.1" dur="3s" repeatCount="indefinite" />
     </circle>
   </g>

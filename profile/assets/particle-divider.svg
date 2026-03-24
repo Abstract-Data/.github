@@ -33,14 +33,14 @@
     </style>
 
     <radialGradient id="particle-glow">
-      <stop offset="0%" stop-color="#E7AE59" stop-opacity="1" />
-      <stop offset="100%" stop-color="#AC2D21" stop-opacity="0" />
+      <stop offset="0%" stop-color="#00D9FF" stop-opacity="1" />
+      <stop offset="100%" stop-color="#E7AE59" stop-opacity="0" />
     </radialGradient>
 
     <linearGradient id="circuit-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#AC2D21" />
-      <stop offset="50%" stop-color="#E7AE59" />
-      <stop offset="100%" stop-color="#AC2D21" />
+      <stop offset="0%" stop-color="#E7AE59" />
+      <stop offset="50%" stop-color="#00D9FF" />
+      <stop offset="100%" stop-color="#E7AE59" />
     </linearGradient>
   </defs>
 

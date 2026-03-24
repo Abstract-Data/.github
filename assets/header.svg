@@ -3,17 +3,17 @@
   <desc id="desc">Animated high-tech header with neural circuit motif and glowing typography for Abstract Data.</desc>
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0A0E27" />
-      <stop offset="100%" stop-color="#11183C" />
+      <stop offset="0%" stop-color="#0A0A0A" />
+      <stop offset="100%" stop-color="#141414" />
     </linearGradient>
     <linearGradient id="traceGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#E7AE59" />
-      <stop offset="100%" stop-color="#AC2D21" />
+      <stop offset="0%" stop-color="#00D9FF" />
+      <stop offset="100%" stop-color="#E7AE59" />
     </linearGradient>
     <radialGradient id="nodeGlow" cx="50%" cy="50%" r="0.5">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
-      <stop offset="70%" stop-color="#E7AE59" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#AC2D21" stop-opacity="0" />
+      <stop offset="70%" stop-color="#00D9FF" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#E7AE59" stop-opacity="0" />
     </radialGradient>
     <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="6" result="blur" />
@@ -24,8 +24,8 @@
     </filter>
     <style>
       @keyframes glow {
-        0%, 100% { filter: drop-shadow(0 0 6px #E7AE59); }
-        50% { filter: drop-shadow(0 0 18px #AC2D21); }
+        0%, 100% { filter: drop-shadow(0 0 6px #00D9FF); }
+        50% { filter: drop-shadow(0 0 18px #E7AE59); }
       }
       @keyframes pulse {
         0%, 100% { opacity: 0.6; }
@@ -40,7 +40,7 @@
         font-size: 72px;
         font-weight: 700;
         letter-spacing: 14px;
-        fill: #E7AE59;
+        fill: #00D9FF;
         text-transform: uppercase;
         animation: glow 4s ease-in-out infinite;
       }

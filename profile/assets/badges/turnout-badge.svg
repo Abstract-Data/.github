@@ -4,8 +4,8 @@
   <defs>
     <style>
       @keyframes badge-glow {
-        0%, 100% { filter: drop-shadow(0 0 6px #E7AE59); }
-        50% { filter: drop-shadow(0 0 18px #AC2D21); }
+        0%, 100% { filter: drop-shadow(0 0 6px #00D9FF); }
+        50% { filter: drop-shadow(0 0 18px #E7AE59); }
       }
 
       @keyframes hologram-scan {
@@ -40,11 +40,11 @@
       }
 
       .highlight {
-        fill: #E7AE59;
+        fill: #00D9FF;
       }
 
       .muted {
-        fill: #999999;
+        fill: #B0B0B0;
       }
 
       @media (prefers-color-scheme: dark) {
@@ -53,21 +53,21 @@
         }
 
         .highlight {
-          fill: #E7AE59;
+          fill: #00D9FF;
         }
 
         .muted {
-          fill: #999999;
+          fill: #B0B0B0;
         }
       }
 
       @media (prefers-color-scheme: light) {
         text {
-          fill: #AC2D21;
+          fill: #E7AE59;
         }
 
         .highlight {
-          fill: #C44632;
+          fill: #0099B3;
         }
 
         .muted {
@@ -77,27 +77,27 @@
     </style>
 
     <linearGradient id="badge-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0A0E27" />
-      <stop offset="100%" stop-color="#11183C" />
+      <stop offset="0%" stop-color="#0A0A0A" />
+      <stop offset="100%" stop-color="#141414" />
     </linearGradient>
 
     <linearGradient id="badge-border" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#E7AE59" />
-      <stop offset="50%" stop-color="#AC2D21" />
-      <stop offset="100%" stop-color="#E7AE59" />
+      <stop offset="0%" stop-color="#00D9FF" />
+      <stop offset="50%" stop-color="#E7AE59" />
+      <stop offset="100%" stop-color="#00D9FF" />
     </linearGradient>
   </defs>
 
   <g class="badge-container">
     <rect class="badge-surface" x="5" y="5" width="240" height="70" rx="12" stroke="url(#badge-border)" stroke-width="2" />
-    <rect class="hologram-line" x="12" y="20" width="226" height="2" fill="#E7AE59" />
+    <rect class="hologram-line" x="12" y="20" width="226" height="2" fill="#00D9FF" />
 
     <g transform="translate(40, 42)">
-      <polyline points="-18 12 -8 -4 0 4 10 -12 18 6" fill="none" stroke="#E7AE59" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="-18 12 -8 -4 0 4 10 -12 18 6" fill="none" stroke="#00D9FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
         <animate attributeName="stroke-dasharray" values="0,80;80,0" dur="3s" repeatCount="indefinite" />
       </polyline>
-      <circle cx="18" cy="6" r="4" fill="#AC2D21" />
-      <polygon points="18 0 26 6 18 12" fill="#E7AE59" />
+      <circle cx="18" cy="6" r="4" fill="#E7AE59" />
+      <polygon points="18 0 26 6 18 12" fill="#00D9FF" />
     </g>
 
     <text class="highlight" x="68" y="32" font-size="11">TURNOUT LIFT</text>
