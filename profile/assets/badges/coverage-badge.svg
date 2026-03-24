@@ -1,6 +1,6 @@
 <svg width="250" height="80" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">95%+ coverage badge</title>
-  <desc id="desc">Animated holographic badge highlighting ninety five percent plus automated test coverage.</desc>
+  <title id="title">78% test coverage badge</title>
+  <desc id="desc">Animated holographic badge highlighting 78 percent test coverage.</desc>
   <defs>
     <style>
       @keyframes badge-glow {
@@ -104,9 +104,9 @@
       <polyline points="-8 4 -2 0 -8 -4" fill="none" stroke="#0A0A0A" stroke-width="2" />
     </g>
 
-    <text class="highlight" x="68" y="32" font-size="11">AUTOMATED</text>
-    <text class="badge-value" x="68" y="54" font-size="25" font-weight="bold">95%+</text>
-    <text class="muted" x="148" y="54" font-size="11">TEST COVERAGE</text>
+    <text class="highlight" x="68" y="32" font-size="11">ENTERPRISE</text>
+    <text class="badge-value" x="68" y="54" font-size="25" font-weight="bold">78%</text>
+    <text class="muted" x="130" y="54" font-size="11">TEST COVERAGE</text>
   </g>
 </svg>
 

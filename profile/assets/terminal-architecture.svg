@@ -105,11 +105,11 @@
   <text class="header-title" x="30" y="26" dominant-baseline="middle">abstract-data@systems • architecture</text>
   <g transform="translate(30, 48)">
     <text class="text-line line-1" y="0">$ abstract-data architecture layers --watch</text>
-    <text class="text-line line-2" y="34">▸ Layer 5 Interfaces      : Swift apps for campaign, advocacy, operator workflows</text>
-    <text class="text-line line-3" y="68">▸ Layer 4 APIs            : FastAPI + SQLModel services exposing realtime civic data</text>
-    <text class="text-line line-4" y="102">▸ Layer 3 AI / ML         : Scoring pipelines, anomaly detection, guidance engines</text>
-    <text class="text-line line-5" y="136">▸ Layer 2 Data            : Neon Postgres, Redis/Upstash, hybrid cloud + edge storage</text>
-    <text class="text-line line-6" y="170">▸ Layer 1 Infrastructure  : Cloudflare, AWS, containerized delivery, observability</text>
+    <text class="text-line line-2" y="34">▸ Presentation     : Next.js 15, React Server Components, SwiftUI, AR/VR</text>
+    <text class="text-line line-3" y="68">▸ Application      : Microservices, event-driven systems, real-time processing</text>
+    <text class="text-line line-4" y="102">▸ Intelligence     : LLM orchestration, ML pipelines, fuzzy matching, QC</text>
+    <text class="text-line line-5" y="136">▸ Data             : PostgreSQL, Redis, Snowflake, vector databases</text>
+    <text class="text-line line-6" y="170">▸ Infrastructure   : Edge computing, auto-scaling, zero-downtime deploys</text>
     <text class="cursor" x="0" y="204">▮</text>
   </g>
 

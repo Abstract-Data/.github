@@ -97,14 +97,14 @@
 
   <rect class="terminal" x="10" y="10" width="800" height="240" />
   <rect class="header-bar" x="10" y="10" width="800" height="26" />
-  <text class="header-title" x="30" y="26" dominant-baseline="middle">abstract-data@systems • pillars</text>
+  <text class="header-title" x="30" y="26" dominant-baseline="middle">abstract-data@systems • capabilities</text>
   <g transform="translate(30, 48)">
-    <text class="text-line line-1" y="0">$ abstract-data pillars list --watch</text>
-    <text class="text-line line-2" y="34">▸ Data infrastructure     – National-scale ingestion, normalization, lineage, warehousing</text>
-    <text class="text-line line-3" y="68">▸ Compliance automation   – TCPA/DNC enforcement, proactive gating, immutable audit trails</text>
-    <text class="text-line line-4" y="102">▸ AI quality systems      – Layered validation, anomaly detection, scoring models</text>
-    <text class="text-line line-5" y="136">▸ Engagement tooling      – Communications, targeting, coaching, localized intelligence</text>
-    <text class="text-line line-6" y="170">▸ Operational engineering – uv-managed builds, CI/CD, observability, runbooks</text>
+    <text class="text-line line-1" y="0">$ abstract-data capabilities --watch</text>
+    <text class="text-line line-2" y="34">▸ Custom development      – Enterprise-grade systems built for scale and performance</text>
+    <text class="text-line line-3" y="68">▸ Data engineering        – 5M+ records/hour, 96.3% accuracy, advanced pipelines</text>
+    <text class="text-line line-4" y="102">▸ AI integration          – ML pipelines, anomaly detection, 98.5% automation</text>
+    <text class="text-line line-5" y="136">▸ Swift + AR/MR           – Native iOS, Vision Pro, spatial computing platforms</text>
+    <text class="text-line line-6" y="170">▸ Autonomous operations   – Level 4 CI/CD, self-healing, zero-touch deploys</text>
     <text class="cursor" x="0" y="204">▮</text>
   </g>
 

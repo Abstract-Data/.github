@@ -69,6 +69,6 @@
   <text class="headline" x="900" y="40" font-size="16">Live Telemetry</text>
   <text x="900" y="70" font-size="12">Pipelines: 48 running</text>
   <text x="900" y="90" font-size="12">Validation latency: 210ms</text>
-  <text x="900" y="110" font-size="12">Compliance checks: 3.2M/day</text>
+  <text x="900" y="110" font-size="12">Records processed: 5M+/hour</text>
 </svg>
 

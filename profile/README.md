@@ -9,7 +9,7 @@
 </picture>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=3000&pause=1000&color=00D9FF&background=00000000&center=true&vCenter=true&width=1000&lines=ABSTRACT+DATA;AI-Powered+Civic+Technology;Data+Quality+at+Scale;Enterprise+Voter+Engagement" alt="Abstract Data Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=3000&pause=1000&color=00D9FF&background=00000000&center=true&vCenter=true&width=1000&lines=ABSTRACT+DATA;Next-Generation+Software+Engineering;Top+5%25+Code+Quality;26.6x+Return+on+Investment" alt="Abstract Data Typing Animation" />
 </p>
 
 <p align="center">
@@ -26,9 +26,9 @@
   </picture>
 </p>
 
-**The leading AI-powered civic technology portfolio for campaigns, advocacy, and institutional partners.**
+**Next-generation software engineering. Real systems. Real performance. Actually built by us.**
 
-Abstract Data architects and operates a collection of enterprise civic-tech systems that fuse AI-driven voter engagement, national-scale data operations, and automated compliance. Across the portfolio we deliver measurable turnout lift, research-grade analytics, and principal-level engineering rigor for every jurisdiction we support.
+Abstract Data designs and delivers enterprise-grade software across custom development, data engineering, AI integration, and native platforms. We process 5M+ records per hour, maintain top 5% code quality nationally, and operate Level 4 CI/CD maturity with self-healing production systems — the kind of engineering that commands $250K–$400K at elite firms.
 
 <p align="center">
   <picture>
@@ -40,7 +40,7 @@ Abstract Data architects and operates a collection of enterprise civic-tech syst
 <p align="center" style="margin-top: 40px;">
   <picture>
     <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/headers/portfolio-pillars-reveal.svg" type="image/svg+xml">
-    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/portfolio-pillars-reveal-mobile.png" alt="Portfolio Pillars header with crypto text reveal animation" width="760" />
+    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/portfolio-pillars-reveal-mobile.png" alt="Capabilities header with crypto text reveal animation" width="760" />
   </picture>
 </p>
 
@@ -54,26 +54,26 @@ Abstract Data architects and operates a collection of enterprise civic-tech syst
 <p align="center" style="margin-top: 40px;">
   <picture>
     <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/headers/production-proof-reveal.svg" type="image/svg+xml">
-    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/production-proof-reveal-mobile.png" alt="Production Proof Points header with crypto text reveal animation" width="780" />
+    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/production-proof-reveal-mobile.png" alt="Proven Results header with crypto text reveal animation" width="780" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
     <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/badges/deployment-badge.svg" type="image/svg+xml">
-    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/deployment-badge-mobile.png" alt="500 plus production deployments badge" width="220" />
+    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/deployment-badge-mobile.png" alt="98.5 percent processing time reduction badge" width="220" />
   </picture>
   <picture>
     <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/badges/coverage-badge.svg" type="image/svg+xml">
-    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/coverage-badge-mobile.png" alt="Ninety five percent automated coverage badge" width="220" />
+    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/coverage-badge-mobile.png" alt="78 percent test coverage badge" width="220" />
   </picture>
   <picture>
     <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/badges/compliance-badge.svg" type="image/svg+xml">
-    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/compliance-badge-mobile.png" alt="Zero compliance violations badge" width="220" />
+    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/compliance-badge-mobile.png" alt="96.3 percent data match accuracy badge" width="220" />
   </picture>
   <picture>
     <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/badges/turnout-badge.svg" type="image/svg+xml">
-    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/turnout-badge-mobile.png" alt="Turnout improvement badge" width="220" />
+    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/turnout-badge-mobile.png" alt="26.6x return on investment badge" width="220" />
   </picture>
 </p>
 
@@ -92,44 +92,47 @@ Abstract Data architects and operates a collection of enterprise civic-tech syst
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/React-React?style=flat&logo=react&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="React badge" />
+  <img src="https://img.shields.io/badge/Next.js-Next.js?style=flat&logo=nextdotjs&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Next.js badge" />
+  <img src="https://img.shields.io/badge/TypeScript-TypeScript?style=flat&logo=typescript&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="TypeScript badge" />
+  <img src="https://img.shields.io/badge/Python-Python?style=flat&logo=python&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Python badge" />
   <img src="https://img.shields.io/badge/Swift-Swift?style=flat&logo=swift&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Swift badge" />
-  <img src="https://img.shields.io/badge/Neon-Neon?style=flat&logo=postgresql&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Neon badge" />
-  <img src="https://img.shields.io/badge/Cloudflare-Cloudflare?style=flat&logo=cloudflare&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Cloudflare badge" />
-  <img src="https://img.shields.io/badge/AWS-Amazon%20Web%20Services?style=flat&logo=amazonaws&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="AWS badge" />
-  <img src="https://img.shields.io/badge/Redis%20Upstash-Redis%20(Upstash)?style=flat&logo=redis&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Redis Upstash badge" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-SQLAlchemy?style=flat&logo=python&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="SQLAlchemy badge" />
-  <img src="https://img.shields.io/badge/Pydantic-Pydantic?style=flat&logo=python&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Pydantic badge" />
+  <img src="https://img.shields.io/badge/PyTorch-PyTorch?style=flat&logo=pytorch&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="PyTorch badge" />
+  <img src="https://img.shields.io/badge/PostgreSQL-PostgreSQL?style=flat&logo=postgresql&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="PostgreSQL badge" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/uv-uv?style=flat&logo=python&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="uv badge" />
+  <img src="https://img.shields.io/badge/Snowflake-Snowflake?style=flat&logo=snowflake&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Snowflake badge" />
+  <img src="https://img.shields.io/badge/Redis-Redis?style=flat&logo=redis&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Redis badge" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-OpenTelemetry?style=flat&logo=opentelemetry&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="OpenTelemetry badge" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-GitHub%20Actions?style=flat&logo=githubactions&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="GitHub Actions badge" />
-  <img src="https://img.shields.io/badge/Pydantic%20Logfire-Pydantic%20Logfire?style=flat&logo=python&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Pydantic Logfire badge" />
-  <img src="https://img.shields.io/badge/1Password-1Password?style=flat&logo=1password&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="1Password badge" />
-  <img src="https://img.shields.io/badge/Sentry-Sentry?style=flat&logo=sentry&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Sentry badge" />
+  <img src="https://img.shields.io/badge/Cloudflare-Cloudflare?style=flat&logo=cloudflare&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Cloudflare badge" />
+  <img src="https://img.shields.io/badge/AWS-AWS?style=flat&logo=amazonaws&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="AWS badge" />
 </p>
 
 <p align="center" style="margin-top: 40px;">
   <picture>
     <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/headers/market-leadership-reveal.svg" type="image/svg+xml">
-    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/market-leadership-reveal-mobile.png" alt="Market Leadership and Portfolio Differentiators header with crypto text reveal animation" width="880" />
+    <img src="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/mobile/market-leadership-reveal-mobile.png" alt="The Abstract Data Advantage header with crypto text reveal animation" width="880" />
   </picture>
 </p>
 
-### Why Abstract Data Leads
-We do not compete on buzzwords—we compete on measurable civic outcomes. Abstract Data operates a portfolio of AI-enabled data infrastructure, compliance, engagement, and analytics projects that act in concert to outperform industry archetypes.
+### Real Engineering. Not White-Labeled Garbage.
+Every line of code is ours. No rebranded vendor software. No white-labeled tools with a logo slapped on top. We build production-grade systems from scratch — and the results speak for themselves.
 
-### Why It Matters
+### The Abstract Data Advantage
 
-| **Dimension** | **Industry Baseline** | **Abstract Data Result** |
+| **Metric** | **Traditional Solutions** | **Abstract Data** |
 | --- | --- | --- |
-| Innovation | Quarterly features | Daily, AI-assisted releases |
-| Security | Post-deployment scans | Pre-deployment, automated gates |
-| Compliance | Manual audit trails | Real-time logging, zero violations |
-| Scalability | 2–3 months per state | Days per vendor/state |
-| Reliability | 99% SLA | 99.95%+ SLA (Vercel-backed) |
-| Outcomes | Activity metrics | Outcome metrics (8.6% lift, 500+ launches) |
+| Processing Speed | Manual, weeks of work | 10–50x faster, minutes not days |
+| Data Accuracy | Error-prone, ~70–80% | 96.3% match accuracy |
+| Cost Efficiency | High labor costs, no optimization | 53% cost reduction achieved |
+| Return on Investment | Minimal, break-even at best | 26.6x monthly ROI |
+| Automation Level | Mostly manual processes | 98.5% reduction in manual work |
+| Code Quality | White-labeled vendor software | Top 5% nationally, written in-house |
+| Architecture | Monolithic legacy systems | Enterprise-grade microservices |
+| Operations | Still figuring out basic deployment | Level 4 CI/CD, self-healing systems |
 
-Abstract Data is not another campaign technology vendor—it is a modern civic-tech portfolio combining infrastructure, automation, and engagement systems to deliver measurable change.
+Abstract Data is not another dev shop — it is a next-generation engineering firm delivering enterprise-grade systems, autonomous operations, and measurable results across every engagement.
 
 <picture>
   <source srcset="https://raw.githubusercontent.com/Abstract-Data/.github/main/profile/assets/particle-divider.svg" type="image/svg+xml">

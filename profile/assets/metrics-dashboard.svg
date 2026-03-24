@@ -1,6 +1,6 @@
 <svg width="1200" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Abstract Data metrics dashboard</title>
-  <desc id="desc">Animated heads-up display cards presenting deployments, coverage, compliance, and impact metrics.</desc>
+  <desc id="desc">Animated heads-up display cards presenting processing, accuracy, code quality, and ROI metrics.</desc>
   <defs>
     <style>
       @keyframes hud-frame {
@@ -109,36 +109,36 @@
 
   <g class="metric-card" transform="translate(60, 40)">
     <rect class="hud-border" x="0" y="0" width="250" height="170" rx="12" />
-    <text class="metric-title" x="125" y="40" text-anchor="middle">DEPLOYMENTS</text>
-    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">500+</text>
-    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">PRODUCTION SCALE</text>
+    <text class="metric-title" x="125" y="40" text-anchor="middle">PROCESSING</text>
+    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">98.5%</text>
+    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">TIME REDUCTION</text>
     <circle class="particle" cx="120" cy="80" r="3" style="--tx: 12px; --ty: -18px;" />
     <circle class="particle" cx="130" cy="90" r="2" style="--tx: -15px; --ty: -20px; animation-delay: 0.6s;" />
   </g>
 
   <g class="metric-card" transform="translate(340, 40)">
     <rect class="hud-border" x="0" y="0" width="250" height="170" rx="12" />
-    <text class="metric-title" x="125" y="40" text-anchor="middle">TEST COVERAGE</text>
-    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">95%+</text>
-    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">AUTOMATED SUITES</text>
+    <text class="metric-title" x="125" y="40" text-anchor="middle">DATA ACCURACY</text>
+    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">96.3%</text>
+    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">MATCH PRECISION</text>
     <circle class="particle" cx="110" cy="90" r="3" style="--tx: 18px; --ty: -14px; animation-delay: 0.4s;" />
     <circle class="particle" cx="140" cy="110" r="2" style="--tx: -16px; --ty: -28px; animation-delay: 1s;" />
   </g>
 
   <g class="metric-card" transform="translate(620, 40)">
     <rect class="hud-border achievement-badge" x="0" y="0" width="250" height="170" rx="12" />
-    <text class="metric-title" x="125" y="40" text-anchor="middle">COMPLIANCE</text>
-    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">0</text>
-    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">TCPA VIOLATIONS</text>
+    <text class="metric-title" x="125" y="40" text-anchor="middle">CODE QUALITY</text>
+    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">Top 5%</text>
+    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">NATIONALLY RANKED</text>
     <circle class="particle" cx="120" cy="80" r="3" style="--tx: 10px; --ty: -24px; animation-delay: 0.8s;" />
     <circle class="particle" cx="140" cy="100" r="2" style="--tx: -12px; --ty: -18px; animation-delay: 1.4s;" />
   </g>
 
   <g class="metric-card" transform="translate(900, 40)">
     <rect class="hud-border" x="0" y="0" width="250" height="170" rx="12" />
-    <text class="metric-title" x="125" y="40" text-anchor="middle">TURNOUT IMPACT</text>
-    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">+8.6%</text>
-    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">LIFT PER OUTREACH</text>
+    <text class="metric-title" x="125" y="40" text-anchor="middle">RETURN</text>
+    <text class="metric-value" x="125" y="100" text-anchor="middle" font-size="50" font-weight="bold">26.6x</text>
+    <text class="metric-subtitle" x="125" y="130" text-anchor="middle">MONTHLY ROI</text>
     <polygon points="125,70 135,90 115,90" fill="#00D9FF" opacity="0.7">
       <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
     </polygon>

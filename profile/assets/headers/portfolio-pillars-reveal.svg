@@ -1,6 +1,6 @@
 <svg width="820" height="200" viewBox="0 0 820 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Portfolio Pillars header reveal</title>
-  <desc id="desc">Animated crypto text reveal for the Portfolio Pillars section headline.</desc>
+  <title id="title">Capabilities header reveal</title>
+  <desc id="desc">Animated crypto text reveal for the Capabilities section headline.</desc>
   <defs>
     <linearGradient id="frame-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#E7AE59" />
@@ -50,16 +50,16 @@
     </style>
   </defs>
 
-  <text x="410" y="70">P0R^FO!I0 PI!!ARS
+  <text x="410" y="70">C@P^B!L!T!3S
     <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.08;0.16" dur="2.2s" fill="freeze" />
   </text>
-  <text x="410" y="70">PORT#F0L!O P1LL@RS
+  <text x="410" y="70">CAP@B1L!TI3S
     <animate attributeName="opacity" values="0;1;0" keyTimes="0.16;0.3;0.44" dur="2.2s" fill="freeze" />
   </text>
-  <text x="410" y="70">PORTFO!IO PILLA^S
+  <text x="410" y="70">CAPABILIT!ES
     <animate attributeName="opacity" values="0;1;0" keyTimes="0.44;0.58;0.7" dur="2.2s" fill="freeze" />
   </text>
-  <text class="final" x="410" y="70">PORTFOLIO PILLARS
+  <text class="final" x="410" y="70">CAPABILITIES
     <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.68;1" dur="2.2s" fill="freeze" />
   </text>
 

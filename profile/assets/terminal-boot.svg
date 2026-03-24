@@ -84,13 +84,13 @@
 
   <rect class="terminal-bg" x="0" y="0" width="800" height="400" rx="12" />
   <rect class="terminal-bar" x="0" y="0" width="800" height="32" rx="12 12 0 0" />
-  <text class="terminal-header" x="20" y="22" font-family="'Fira Code', monospace" font-size="14">abstract-data@civic-tech:~$</text>
+  <text class="terminal-header" x="20" y="22" font-family="'Fira Code', monospace" font-size="14">abstract-data@engineering:~$</text>
 
   <g transform="translate(30, 70)">
     <text class="terminal-text line-1" y="0">$ INITIALIZING ABSTRACT DATA SYSTEMS...</text>
-    <text class="terminal-text line-2" y="40">✓ Data infrastructure services......... [READY]</text>
-    <text class="terminal-text line-3" y="80">✓ Compliance automation modules....... [ACTIVE]</text>
-    <text class="terminal-text line-4" y="120">✓ AI quality + validation pipelines... [ONLINE]</text>
+    <text class="terminal-text line-2" y="40">✓ Enterprise software engineering...... [READY]</text>
+    <text class="terminal-text line-3" y="80">✓ AI + data processing pipelines...... [ACTIVE]</text>
+    <text class="terminal-text line-4" y="120">✓ Self-healing production systems..... [ONLINE]</text>
     <text class="cursor" y="170">▮</text>
   </g>
 </svg>
