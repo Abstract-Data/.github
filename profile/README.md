@@ -93,7 +93,7 @@ Abstract Data designs and delivers enterprise-grade software across custom devel
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-React?style=flat&logo=react&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="React badge" />
-  <img src="https://img.shields.io/badge/Next.js-Next.js?style=flat&logo=nextdotjs&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Next.js badge" />
+  <img src="https://img.shields.io/badge/Next%2Ejs-Next%2Ejs?style=flat&logo=nextdotjs&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Next.js badge" />
   <img src="https://img.shields.io/badge/TypeScript-TypeScript?style=flat&logo=typescript&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="TypeScript badge" />
   <img src="https://img.shields.io/badge/Python-Python?style=flat&logo=python&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Python badge" />
   <img src="https://img.shields.io/badge/Swift-Swift?style=flat&logo=swift&logoColor=00D9FF&labelColor=0A0A0A&color=transparent" alt="Swift badge" />
